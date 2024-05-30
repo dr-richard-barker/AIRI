@@ -1,6 +1,6 @@
-# STAGE V: Auxin and Plant Cloning
+# Stage V: Auxin and Plant Cloning
 
-**Introduction**
+## A practical i**ntroduction to auxin**
 
 Auxin movement is important for gravity and light perception and response in plants. Auxin is also an important tool in agriculture being used to both clone and kill plants. Many pioneering studies of plants in orbit have been achieved using plant stem cell cultures. Growing stem cells and cloning plants is easy. Understanding how auxin affects plants at a cellular cell is difficult and requires computers to model and make simulations.
 
@@ -8,7 +8,6 @@ Auxin movement is important for gravity and light perception and response in pla
 
 **Supplies:**
 
-* Computers for modelling software
 * Auxin powder (lots of brands Bonide, MiracleGro "FastRoot to choose from and compare against each other in experiments)
 * Plant what you want to clone (Tomatoes, chili’s, lavender, rose, whatever you want or pre-cut kitchen Rosemary from the supermarket can work)
 

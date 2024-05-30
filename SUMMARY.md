@@ -5,7 +5,7 @@
 * [Stage I: Space Invaders Data Literacy](stage-i-space-invaders-data-literacy.md)
 * [Stage II: What's your favorite microgreen?](stage-ii-whats-your-favorite-microgreen.md)
 * [Stage III: Growth of Microgreens in Terrestrial Environments](stage-iii-growth-of-microgreens-in-terrestrial-environments.md)
-* [Stage IV: Microgreen development and gravitropic response (Image analysis needs work)](research-stage-iv-microgreen-development-and-gravitropic-response.md)
+* [Stage IV: Microgreen development and gravitropic response](research-stage-iv-microgreen-development-and-gravitropic-response.md)
 * [Stage V: Auxin and Plant Cloning](stage-v-auxin-and-plant-cloning.md)
 * [Stage VI: Gravitropism assays (Needs work)](research-stage-vi-gravitropism-assays.md)
 * [Stage VII: Computational modelling of plant hormone transport.](stage-vi-computational-modeling-of-plant-hormone-transport..md)

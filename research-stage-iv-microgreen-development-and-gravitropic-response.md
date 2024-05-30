@@ -1,4 +1,4 @@
-# Research Stage IV: Microgreen development and gravitropic response (Image analysis needs work)
+# Stage IV: Microgreen development and gravitropic response
 
 ### **Research Stage IV: Microgreen development and gravitropic response** <a href="#qzvgkk814uvo" id="qzvgkk814uvo"></a>
 
@@ -56,7 +56,7 @@ This seed sterilization technique is good for quickly sterilizing seed batches b
 * Remove the seeds by sucking up the ethanol and seed solution.
 * Dispense the seeds and ethanol onto filter paper so they are ready to sow.
 
-### **Simple Ethanol rinse Sterilization Protocol for Petri Dishes:**
+### **Simple Ethanol Rinse Sterilization Protocol for Petri Dishes:**
 
 * Fill petri dish with ethanol
 * Close the lid shack it about, pour away the alcohol; let ethanol evaporate off (ideally in a flow hood).
@@ -245,7 +245,3 @@ Note: Best for Window’s OS and a single time point
 
 * Based on these observations, what directions do plants grow towards? (stems, leaves)
 * How can this idea be tested?
-
-| <p><strong>STAGE IV</strong></p><p></p> |
-| --------------------------------------- |
-|                                         |

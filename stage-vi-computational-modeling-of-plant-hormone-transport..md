@@ -1,4 +1,4 @@
-# STAGE VII: Computational modeling of plant hormone transport.
+# Stage VII: Computational modelling of plant hormone transport.
 
 ### Root Tissue and Gravity Perception
 
@@ -6,7 +6,7 @@
 
 Root tissues are vital components of a plant, responsible for numerous functions including anchorage, absorption of water and nutrients, and storage of food. Understanding the structure and function of root tissues is fundamental to grasping how plants interact with their environment, particularly in response to gravity, a phenomenon known as gravitropism.
 
-<figure><img src=".gitbook/assets/image%20(72).png" alt=""><figcaption><p>Auxin transport is reuglated by multiple transporter families.</p></figcaption></figure>
+
 
 ### Anatomy of Root Tissue
 
