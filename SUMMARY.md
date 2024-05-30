@@ -10,4 +10,5 @@
 * [Research stage VI: Gravitropism assays (Needs work)](research-stage-vi-gravitropism-assays.md)
 * [STAGE VII: Computational modeling of plant hormone transport.](stage-vi-computational-modeling-of-plant-hormone-transport..md)
 * [AIRI course links to Next Generation Science Standards](airi-course-links-to-next-generation-science-standards.md)
+* [Table 1: AIRI Experimental Course Map](table-1-airi-experimental-course-map.md)
 * [Tables of Microgreen Growth Rates and example Conditions to use a General Guide](tables-of-microgreen-growth-rates-and-example-conditions-to-use-a-general-guide.md)

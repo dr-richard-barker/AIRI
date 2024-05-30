@@ -12,7 +12,7 @@ Auxin movement is important for gravity and light perception and response in pla
 * Auxin powder (lots of brands Bonide, MiracleGro "FastRoot to choose from and compare against each other in experiments)
 * Plant what you want to clone (Tomatoes, chili’s, lavender, rose, whatever you want or pre-cut kitchen Rosemary from the supermarket can work)
 
-### STAGE V: Simple protocols for Auxin experiments and plant cloning <a href="#jhr9cepaf5ca" id="jhr9cepaf5ca"></a>
+### Simple protocols for Auxin experiments and plant cloning <a href="#jhr9cepaf5ca" id="jhr9cepaf5ca"></a>
 
 * There are many protocols for taking cuttings online so first compare, contrast and discuss as a group.
 * The most important thing is to compare a few different variations (such as different light environments or different age) and record what happens in your Science Journal.
@@ -28,11 +28,11 @@ Auxin movement is important for gravity and light perception and response in pla
 
 <figure><img src="https://lh7-us.googleusercontent.com/c5lroWngmgyc8mbdEEyx4I1FQkgUM18VBdFOYfOo9y_SkEVY3JRHIjZTGgtzW1sP3KIkqHqS61qH09wHrytSkFGHkxVNZG-FnPLLL2LOFvgPI839f_Lp1RKCky1kfFgYi0gD0nM00VoyLZzwhkqbKQ" alt=""><figcaption></figcaption></figure>
 
-### **STAGE V: Advanced plant cell culture cloning protocol**
+### **Advanced plant cell culture cloning protocol**
 
 This is a real scientific protocol, so there are a lot of variations to this protocol on the internet and in various labs it has been adapted for different purposes. The amount of hormones varies depending on the type of plant you are using. Write down your steps in your Science Journal so your methods are reproducible.
 
-**Making a media of 1 L**
+### **Making a media of 1 L**
 
 * 1Liter of water,
 * 4.4g MS salts,
@@ -40,7 +40,7 @@ This is a real scientific protocol, so there are a lot of variations to this pro
 * 1ml MS vitamins,
 * 300 ul 2,4-D (Auxin)
 
-**Mix ingredients with 1L with 1L H20 then adjust the pH to 5.72**
+### **Mix ingredients with 1L with 1L H20 then adjust the pH to 5.72**
 
 * Alter pH by adding drops of potassium hydroxide
 
@@ -58,7 +58,7 @@ After autoclaving, allow to cool to \~45C
   * 667 ul 1M NaOH (to prepare 1M NaOH: Add 1.99g NaOH in 50 mL H2O)
   * 2,4-D (1mg/mL) (2,4-Dichlorophenoxy acetic acid = Auxin!)
 
-**Preparing Auxin stocks**
+### **Preparing Auxin stocks**
 
 *   Dissolve 400mg 2,4-D in 400mL 70% methanol (may also use ethanol)
 
@@ -68,7 +68,7 @@ After autoclaving, allow to cool to \~45C
 
 <figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-**STAGE V: Cloning / cuttings protocol**
+### **Cloning / cuttings protocol**
 
 * Pour a moderate amount of agar in selected plates (use rockwool, perlite or soil).
 * Cut small shoot of plant

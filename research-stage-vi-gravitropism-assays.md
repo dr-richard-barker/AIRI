@@ -2,9 +2,7 @@
 
 ### **Introduction**
 
-**XXX**
-
-The fourth stage of this program focuses on the effects that microgravity has on both the physiology and the genetic expression of plant biology. As was outlined in stage II, plant biology is rudementally dependent on gravity as it directs both the directional growth of shoots and roots. Specialized cells in plants used organelles called statoliths to direct the directional growth of plants by directing changes in the gravity vector and thus causing or limiting cellular elongation due to fluctuations in the growth hormone, auxin.
+This stage of this program focuses on the effects that microgravity has on both the physiology and the genetic expression of plant biology. As was outlined in stage II, plant biology is rudimentary dependent on gravity as it directs both the directional growth of shoots and roots. Specialized cells in plants used organelles called statoliths to direct the directional growth of plants by directing changes in the gravity vector and thus causing or limiting cellular elongation due to fluctuations in the growth hormone, auxin.
 
 On Earth, it is challenging to achieve a prolonged state of microgravity. However, it is possible to “confuse” plants into developing as if they were in actual microgravity. One way to achieve this is by having a consistent change in the gravity vector. When in microgravity, statoliths continue to detect changes in gravity. However, in microgravity it becomes less obvious where it is up or down. This particular stressor in microgravity can be simulated in plants through the use of specialized devices known as “clinostats”. These devices continually rotate the organism so it never experiences a gravity vector. In this section, participants will conduct an experimental cycle using a selected microgreen, grown in a specialized clinostat that simulates the effects of microgravity on a single axis.
 

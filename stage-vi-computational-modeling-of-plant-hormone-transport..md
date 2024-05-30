@@ -13,7 +13,7 @@ Root tissues are vital components of a plant, responsible for numerous functions
 It is important to understand the anatomy of Root tissues and how they are organized into several layers, each with distinct roles:
 
 1. **Epidermis**
-   * Outermost layer providing protection.
+   * The outermost layer providing protection.
    * Absorbs water and nutrients from the soil.
 2. **Cortex**
    * Located just beneath the epidermis.
@@ -74,17 +74,39 @@ For more information on how to use SimuPlant and take full advantage of its feat
 
 ***
 
-By following these instructions, you will be able to download, install, and begin using the SimuPlant hormone modeling tool on your MacOS or Windows OS computer. If you encounter any issues during the process, consult the troubleshooting section in the user manual or reach out to the support team via the contact information provided on the SimuPlant website. Happy modeling\![ Link to SimuPlant modelling tool](https://www.simuplant.org/).
+By following these instructions, you will be able to download, install, and begin using the SimuPlant hormone modelling tool on your MacOS or Windows OS computer. If you encounter any issues during the process, consult the troubleshooting section in the user manual or reach out to the support team via the contact information provided on the SimuPlant website. Happy modeling\![ Link to SimuPlant modelling tool](https://www.simuplant.org/).
 
-| <p><strong>STAGE VI</strong></p><p><strong>Observational and Data Collection Protocol</strong></p>                                                                                                                                                                                                                                                                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Observation</strong></p><ul><li>Record notes on the Auxin distribution in the different modeles you create</li><li>Change the model specification</li><li>Save the time lapse videos of the simulated visualizations</li><li>Save the simulated output data</li><li>Save the simulation parameters</li><li>Make a slideshow and report discussing your models predictions.</li><li>More information about the model can be found here</li></ul> |
+
+
+**Observational and Data Collection Protocol**
+
+**Observation**
+
+* Record notes on the Auxin distribution in the different modeles you create
+* Change the model specification
+* Save the time lapse videos of the simulated visualizations
+* Save the simulated output data
+* Save the simulation parameters
+* Make a slideshow and report discussing your models predictions.
+* More information about the model can be found here
 
 <figure><img src="https://lh7-us.googleusercontent.com/ouqospWysvxAbj3IoYTyBI1k84yG_-Wm9O2Ux_WzioiqpaK-gJjt74Cumk5naZtvahpFrYSsyH2h1CfKhuzEuLlNbuQzntfdaRh_picwoqTEXd6SWRJP7LWg2EVlO5XIqdI9_53c_321HJJtBqgohw" alt=""><figcaption></figcaption></figure>
 
-| <p><strong>STAGE V</strong></p><p><strong>Summary and Application Discussion</strong></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Follow Up Inquiry:</strong></p><ul><li>Based on the observations made during this study, what conclusions can be made about the movement of auxin in root tips of plants?</li><li><p>Do you think this will influence roots growth?</p><ul><li>Justify your previous answer?</li></ul></li><li>How would this change in the environment such as the absence of gravity effect auxin distribution in the root?</li></ul><p><strong>Expansion:</strong></p><ul><li>Based on these observations, what directions do plants grow towards? (stems, leaves)</li><li>How can this idea be tested?</li></ul> |
+**Summary and Application Discussion**
+
+**Follow Up Inquiry:**
+
+* Based on the observations made during this study, what conclusions can be made about the movement of auxin in root tips of plants?
+* Do you think this will influence roots growth?
+  * Justify your previous answer?
+* How would this change in the environment such as the absence of gravity effect auxin distribution in the root?
+
+**Expansion:**
+
+* Based on these observations, what directions do plants grow towards? (stems, leaves)
+* How can this idea be tested?
+
+
 
 **STAGE VI: Preparations to be Conducted Prior to Starting Plant Hormone Modeling**
 
