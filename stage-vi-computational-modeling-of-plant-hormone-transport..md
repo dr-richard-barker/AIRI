@@ -1,4 +1,4 @@
-# STAGE VI: Computational modeling of plant hormone transport.
+# STAGE VII: Computational modeling of plant hormone transport.
 
 ### Root Tissue and Gravity Perception
 
@@ -6,7 +6,7 @@
 
 Root tissues are vital components of a plant, responsible for numerous functions including anchorage, absorption of water and nutrients, and storage of food. Understanding the structure and function of root tissues is fundamental to grasping how plants interact with their environment, particularly in response to gravity, a phenomenon known as gravitropism.
 
-<figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption><p>Auxin transport is reuglated by multiple transporter families. </p></figcaption></figure>
+<figure><img src=".gitbook/assets/image%20(72).png" alt=""><figcaption><p>Auxin transport is reuglated by multiple transporter families.</p></figcaption></figure>
 
 ### Anatomy of Root Tissue
 
@@ -41,9 +41,7 @@ It is important to understand the anatomy of Root tissues and how they are organ
   * Redistribution of auxins to the lower side of the root inhibits cell elongation on that side.
   * This causes the root to bend downward, orienting its growth in the direction of gravity.
 
-### SimuPlant Hormone Modeling Tool
-
-{% embed url="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4001398/" %}
+### SimuPlant Hormone Modeling Tool ([Link to research paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4001398/))
 
 #### Platform Compatibility
 
@@ -76,13 +74,11 @@ For more information on how to use SimuPlant and take full advantage of its feat
 
 ***
 
-By following these instructions, you will be able to download, install, and begin using the SimuPlant hormone modeling tool on your MacOS or Windows OS computer. If you encounter any issues during the process, consult the troubleshooting section in the user manual or reach out to the support team via the contact information provided on the SimuPlant website. Happy modeling!
+By following these instructions, you will be able to download, install, and begin using the SimuPlant hormone modeling tool on your MacOS or Windows OS computer. If you encounter any issues during the process, consult the troubleshooting section in the user manual or reach out to the support team via the contact information provided on the SimuPlant website. Happy modeling\![ Link to SimuPlant modelling tool](https://www.simuplant.org/).
 
-{% embed url="https://www.simuplant.org/" %}
-
-| <p><strong>STAGE VI</strong></p><p><strong>Observational and Data Collection Protocol</strong></p>                                                                                                                                                                                                                                                                                                                                                                |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Observation</strong></p><ul><li>Record notes on the Auxin distribution in the different modeles you create</li><li>Change the model specification</li><li>Save the time lapse videos of the simulated visualizations</li><li>Save the simulated output data</li><li>Save the simulation parameters</li><li>Make a slideshow and report discussing your models predictions.</li><li>More information about the model can be found here</li></ul><p></p> |
+| <p><strong>STAGE VI</strong></p><p><strong>Observational and Data Collection Protocol</strong></p>                                                                                                                                                                                                                                                                                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Observation</strong></p><ul><li>Record notes on the Auxin distribution in the different modeles you create</li><li>Change the model specification</li><li>Save the time lapse videos of the simulated visualizations</li><li>Save the simulated output data</li><li>Save the simulation parameters</li><li>Make a slideshow and report discussing your models predictions.</li><li>More information about the model can be found here</li></ul> |
 
 <figure><img src="https://lh7-us.googleusercontent.com/ouqospWysvxAbj3IoYTyBI1k84yG_-Wm9O2Ux_WzioiqpaK-gJjt74Cumk5naZtvahpFrYSsyH2h1CfKhuzEuLlNbuQzntfdaRh_picwoqTEXd6SWRJP7LWg2EVlO5XIqdI9_53c_321HJJtBqgohw" alt=""><figcaption></figcaption></figure>
 

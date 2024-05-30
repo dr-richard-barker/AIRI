@@ -1,19 +1,23 @@
-# Stage II:  What's your favorite microgreen?
+---
+description: >-
+  Become part of our vibrant AstroBotany Research Community! Please take our
+  short survey and share your microgreen preferences.
+---
 
-### Stage II Summary: " What's your favorite microgreen" <a href="#aiwkhr4etifn" id="aiwkhr4etifn"></a>
+# Stage II: What's your favorite microgreen?
 
-As a Space Biology scientist who is interested in the study of microgreens, requesting your collaboration. We are on a mission to find the world's favorite microgreen. This project aims to understand the factors that influence these preferences.
+### Help us unlock the secrets of microgreens!
 
-We have developed a USDA microgreen meta-data application ([USDA microgreen meta-data application](https://www.google.com/url?q=https%3A%2F%2Fastrobiology.botany.wisc.edu%2Feducation-outreach%2Fmicrogreendiversity\&sa=D\&sntz=1\&usg=AOvVaw2e4sc\_CKnrmUUEjB9puXDC)) that provides experimental data on various microgreen varieties. This data, which includes nutritional and yield information, can be a valuable tool in making informed decisions.
+[Link to interactive results showing our favourite microgreens so far... ](https://gilroy-qlik.botany.wisc.edu/a/single/?appid=a612204d-8f95-4c3a-a651-1d7a8ef89af3\&opt=currsel,ctxmenu\&sheet=cf33d0fc-8704-4e57-94dc-d25a7c8d2b0a\&theme=NASA-theme)
+
+As a Space Biology scientist who is interested in the study of microgreens, requesting your collaboration. We are on a mission to find the world's favourite microgreen. This project aims to understand the factors that influence these preferences. Have you ever wondered what it takes to grow delicious, nutritious food in space? We're on a mission to find out through AstroBotany, the science of cultivating plants on spaceships!
+
+By sharing your favourite microgreen and why it tickles your taste buds, you'll be contributing to groundbreaking research. Your unique perspective matters – age, location, and even a gut feeling can be valuable insights!  [Follow thid link to add your data to the microgreen survey.](https://five.epicollect.net/project/your-favorite-microgreen-is)&#x20;
+
+To fuel your exploration, we've built a user-friendly USDA microgreen data app bursting with information on nutrition and yield for different varieties. Link to ([USDA microgreen meta-data application](https://www.google.com/url?q=https%3A%2F%2Fastrobiology.botany.wisc.edu%2Feducation-outreach%2Fmicrogreendiversity\&sa=D\&sntz=1\&usg=AOvVaw2e4sc\_CKnrmUUEjB9puXDC).
 
 {% embed url="https://youtu.be/sULYrcvVZh0" %}
 
-However, we understand that the choice of a favorite microgreen is not always data-driven. Factors such as age, location, taste preference, and even gut feeling can play a significant role. That’s why your input is so crucial.
-
-By participating in our platform and sharing your thoughts, you will be contributing to a broader understanding of microgreen preferences. Your insights will not only enrich our research but also provide valuable data that can influence future studies in AstroBotany.
-
-So, I invite you to join us in this scientific exploration. Share your thoughts, let your preferences be heard, and contribute to the AstroBotany Research Community. Your collaboration can help us answer key questions and shed light on the fascinating world of microgreens. Thank you for considering this invitation. We look forward to your valuable contribution.&#x20;
-
-So, what's your favorate microgreen and why? [Link to microgreen survey. ](https://five.epicollect.net/project/your-favorite-microgreen-is)
+Together, we can unlock the secrets of these tiny powerhouses and illuminate the path forward for space farming!
 
 {% embed url="https://five.epicollect.net/project/your-favorite-microgreen-is" %}
