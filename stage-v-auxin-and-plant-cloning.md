@@ -18,7 +18,7 @@ Auxin movement is important for gravity and light perception and response in pla
 * What variables?
   * Age of the plant
   * Species
-  * Size of canopy left intact
+  * Size of the canopy left intact
   * Method of auxin application
     * Powder
     * Liquid solution
@@ -41,7 +41,7 @@ This is a real scientific protocol, so there are a lot of variations to this pro
 
 ### **Mix ingredients with 1L with 1L H20 then adjust the pH to 5.72**
 
-* Alter pH by adding drops of potassium hydroxide
+Alter pH by adding drops of potassium hydroxide
 
 Final concentration = 1.0% agar (10g in 1L )
 
@@ -49,13 +49,11 @@ Final concentration = 1.0% agar (10g in 1L )
 
 Autoclave for 30 min at 123C (or cook in a pressure cooker for \~35min)
 
-Check your agar is dissolved (if not cook for longer, might be a batch effect).
+Check your agar is dissolved (if not cooked for longer, might be a batch effect).
 
 After autoclaving, allow to cool to \~45C
 
-* Add 100 ul kinetin
-  * 667 ul 1M NaOH (to prepare 1M NaOH: Add 1.99g NaOH in 50 mL H2O)
-  * 2,4-D (1mg/mL) (2,4-Dichlorophenoxy acetic acid = Auxin!)
+Add 100 ul kinetin, 667 ul 1M NaOH (to prepare 1M NaOH: Add 1.99g NaOH in 50 mL H2O) and 2,4-D (1mg/mL) (2,4-Dichlorophenoxy acetic acid = Auxin!).&#x20;
 
 ### **Preparing Auxin stocks**
 
@@ -67,16 +65,12 @@ After autoclaving, allow to cool to \~45C
 
 <figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
-### **Cloning / cuttings protocol**
+### **Cloning/cuttings protocol**
 
 * Pour a moderate amount of agar in selected plates (use rockwool, perlite or soil).
 * Cut small shoot of plant
 * Dip wound in Auxin powder
-  * **Product link….**
-* Gently press stem into the media making sure the stem is embedded.
-
-(Do not crush seeds. Use minimal pressure)
-
+* Gently press stem into the media making sure the stem is embedded (Do not crush seeds, use minimal pressure)
 * Cover plates with lids and seal with micropore medical tape.
 * Store plants in your growth environment (Blue light help some species establish roots better).
 * Don’t let them dry out.

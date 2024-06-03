@@ -1,4 +1,4 @@
-# Research stage VI: Gravitropism assays (Needs work)
+# Stage VI: Gravitropism assays (Needs work)
 
 ### **Introduction**
 
@@ -69,8 +69,7 @@ On Earth, it is challenging to achieve a prolonged state of microgravity. Howeve
 * Plug in the USB keyboard, mouse and HDMI cable from the device to a monitor
   * or control with VNC software.
 * Once booted up, open the “CoSE software” application
-* Under the “Lighting Tab”set the brightness to 50%, Red 50%, Green 50%, Blue 50% then click “confirm”
-  * This setting will determine the color and brightness of your experiment. Make adjustments as needed but make sure to note specifications in metadata.
+* Under the “Lighting Tab”set the brightness to 50%, Red 50%, Green 50%, Blue 50% then click “confirm". This setting will determine the color and brightness of your experiment. Make adjustments as needed but make sure to note specifications in metadata.
 * Under the “Motion” tab, select “clinostat”.
 * Make sure the RPM rate is set at 5 RPM
 * Click “confirm”
@@ -78,13 +77,13 @@ On Earth, it is challenging to achieve a prolonged state of microgravity. Howeve
 * Have the experimental cycle run for 5-7 days
 * A control study can be conducted in two ways
   * Repeat the trial without running the clinostat rotational stressor
-  * A second way can be run simultaneously. Prepare a plate with seeds then stand vertically under an LED light source. (Try to match the lighting conditions of the chamber as much as possible, note the control conditions in data sheet)
-* Photograph (using the CoSE camera) or a different camera everyday.
+  * A second way can be run simultaneously. Prepare a plate with seeds then stand vertically under an LED light source. (Try to match the lighting conditions of the chamber as much as possible, note the control conditions in datasheet)
+* Photograph (using the CoSE camera) or a different camera every day.
 
 ### **Stage VI: Data Collection Protocol**
 
 * Make sure to photograph experimental and control specimens daily.
-  * If using the built in CoSE camera, make sure photos are either scheduled or manually taken at the same time.
+  * If using the built-in CoSE camera, make sure photos are either scheduled or manually taken at the same time.
   * Sample should be facing the same orientation every time.
   * If photos are taken using a different capturing method it is important to keep all conditions constant.
     * Lighting
@@ -98,8 +97,7 @@ On Earth, it is challenging to achieve a prolonged state of microgravity. Howeve
     * Total average length of specimens per plate
     * Stem and leaf coloration
     * Stem directional growth
-    * Root health
-      * Roots should be white. Any sign of coloration (brown or yellow) or cumbling roots are signs of root health deterioration.
+    * Root health. Roots should be white. any sign of coloration (brown or yellow) or curling roots are signs of root health deterioration.
   * Photo analysis should focus on:
     * Root architectural patterns
     * Coloration variance
@@ -109,16 +107,16 @@ On Earth, it is challenging to achieve a prolonged state of microgravity. Howeve
 
 For experimental data to be significant, it needs to be based on repetitive trials. For this reason, once a trial is completed, it should be repeated 2-4 more times.
 
-* To conserve time, specimens could be grown outside of the chamber until roots begin to emerge. Once roots have emerged, an experimental trial can be run in as little as three days. Stagger seeding you plates so that once a trial is complete, the following one can commence at relatively the same point in development.
+* To conserve time, specimens could be grown outside of the chamber until roots begin to emerge. Once roots have emerged, an experimental trial can be run in as little as three days. Stagger seeding your plates so that once a trial is complete, the following one can commence at relatively the same point in development.
 * Significant experimental variables to replicate
   * Lighting Color Variation (EX: Growing specimens under red light instead of white light)
   * Growing Specimens under no light
   * Varying gravitropic stresser (alternate days active)
   * Changing the RPMs to see when the plant can/can't perceive gravity.
   * Measure the presentation time (Barker et al., 2016 Methods in molecular biology chapter. Link coming soon).
-* All experimental protocols should be logged in lab sheet/log
+* All experimental protocols should be logged in the lab sheet/log
 
-### **STAGE VI Summary and Application Discussion on yhe impacts of gravity on plant development**
+### **STAGE VI Summary and Application Discussion on the impacts of gravity on plant development**
 
 * Based on the prior investigations; what are possible developmental/engineering challenges to growing microgreens in microgravity.
 * How can the morphological differences observed affect essential processes in microgreen development? (EX: nutrient intake, gas exchange)
@@ -135,16 +133,16 @@ For experimental data to be significant, it needs to be based on repetitive tria
 1. Pour molten 1% agar containing ½ LS salts into petri plates in a laminar flow cabinet and allow it to harden.
 2. Submerge Arabidopsis (or microgreen) seeds for 15 min in 70% ethanol to surface sterilize them.
 3. Sow seeds horizontally on the agarose gel and seal plates (Note 2).
-4. Store the plates at 4oC for 3 days in darkness provided by wrapping the plates in aluminum foil.
+4. Store the plates at 4oC for 3 days in darkness provided by wrapping the plates in aluminium foil.
 5. Place plates vertically in the controlled environment (CE) for 4 days.
 6. Remove plates from the CE and scan the plates to create 600dpi JPEG images (Note 3).
 7. Leave the plates vertical for 1 hour in darkness.
-8. Gravitationally stimulate the seedlings by rotating the plates 90 degrees, and incubate in darkness for 10, 20 or 30min (Note 4).
+8. Gravitationally stimulate the seedlings by rotating the plates 90 degrees, and incubating in darkness for 10, 20 or 30min (Note 4).
 9. Rotate the plates in the clinostat at 1 revolution per minute (RPM) for 4 hours.
 10. Remove from the clinostat then scan again.
 11. Align the pre- & post-rotation scans next to each other using Adobe Photoshop or similar software.
 12. Measure the angle of initial root tip curvature developed after transfer to the clinostat (Note 5, figure 1) (using RootNav or Smart Root).
-13. For each gravistimulation time, quantify and plot the average angle of curvature with associated variance, fit the corresponding data with L and H model curves as defined in Perbal _et al_., (2002) \[8], and use these models to calculate the presentation time (L model) and the sensitivity score (H model).
+13. For each gravi-stimulation time, quantify and plot the average angle of curvature with associated variance, fit the corresponding data with L and H model curves as defined in Perbal _et al_., (2002) \[8], and use these models to calculate the presentation time (L model) and the sensitivity score (H model).
 
 <figure><img src="https://lh7-us.googleusercontent.com/C69n_kte7D8cIS20JWBOTehZPmeAwg791KmZ0hCRjIUA6Yytujc0VmnagTfPh_DrRFC6zhA330DeeXKfKn5TSnf7qbTZhWF0IPCz07tv3cTaTHmHaqal7DWKc5ceh8m4yt-hrWC981gKUrBFqWGWhA" alt=""><figcaption></figcaption></figure>
 
