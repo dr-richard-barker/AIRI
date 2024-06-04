@@ -6,10 +6,8 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 
 **Supplies:**
 
-* For a quick easy protocol you could try [Hamama kit](https://www.hamama.com/), or
-  * Standard “1020 Planting Trays”
-    * Standard lab weighing tray,
-      * Petri dishes
+* For a quick easy protocol you could try [Hamama kit](https://www.hamama.com/), or create your own system.&#x20;
+  * Standard “1020 Planting Trays” or Standard lab weighing tray, or Petri dishes&#x20;
 * Record your experimental design, in your "science journal" or try a online platform such as [Benchling](https://www.benchling.com/).
 * Two two seed types need to be grown in parallel for comparison
 * Seed quilts/Planting Soil / vermiculite / perlite / and water (volume is crucial)
@@ -49,15 +47,15 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
   * If not using the kit, please precisely record any variations in your protocol using your “Science Journal”.
   * Fill a single tray with dry soil and weigh (Record the weight of this tray and use it as a reference for subsequent trays).
   * Pick out dry seeds to be used (At least two different seed types).
-  * Weigh appropriate amount of seeds for selected tray size.
+  * Weigh appropriate amount of seeds for the selected tray size.
   * Utilize[ the microgreen density calculator t](https://jscalc.io/calc/vqHxgaGIt3RncroW)o measure ideal seed quantities:
 * Have participant groups spread their soil evenly in each observational planting tray.
 * Add water to growing trays. (Soil should be damp, but not flooded)
-* Evenly spread selected seeds throughout specified trays per seed type. (Seeds can also be spread in rows within the trays. If multiple seeds will be represented in single trays, it is important that each row is properly labeled.)
+* Evenly spread selected seeds throughout specified trays per seed type. (Seeds can also be spread in rows within the trays. If multiple seeds will be represented in single trays, it is important that each row is properly labelled.)
 * Gently scattering on the surface of the soil (or growth media). Seeds shouldn’t be covered by soil so don’t plant them deeply. Ideally just a light dusting of soil over the top, put some of the dry soil in a flour sifting sieve and tap the side to get a light dust of soil over the seeds.
 * Mist planted seeds with water.
 * Make sure to label each tray with the seed type, date planted, and elevation.
-* Place near a light source (Windows, or LED lights. Specify light source in data sheet).
+* Place near a light source (Windows, or LED lights. Specify light source in datasheet).
 * Mist soil daily in order to keep it damp.
 * Measure the light intensity above your plant canopy. An easy way to do this is download the “Google Science Journal Application ''. This tool allows you to use your smart device's camera to measure the light intensity. Try to get the device right in the center of the tray. You can even create a map to show the light distribution over your entire canopy.
 
