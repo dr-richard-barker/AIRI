@@ -1,6 +1,7 @@
 # Table of contents
 
-* [AIRI Astrobotany International Research Initiative Program Summary and cover page](README.md)
+* [Project management page](README.md)
+* [AIRI Astrobotany International Research Initiative Program Summary and cover page](<README (1).md>)
 * [Introduction to online datasharing](airi-astrobotany-introduction.md)
 * [Stage I: Space Invaders Data Literacy](stage-i-space-invaders-data-literacy.md)
 * [Stage II: What's your favorite microgreen?](stage-ii-whats-your-favorite-microgreen.md)
