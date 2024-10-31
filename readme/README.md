@@ -2,13 +2,11 @@
 description: AstroBotany Educational Ethos, tools and techniques
 ---
 
-# AIRI Astrobotany International Research Initiative Program Summary and cover page
+# AIRI: Astrobotany International Research Initiative Program Summary and cover page
 
 **AIRI"** Astrobotany International Research Initiative
 
 **Program I: Microgreens in Microgravity**
-
-![](../.gitbook/assets/0.png)
 
 <figure><img src="../.gitbook/assets/image (9).png" alt="" width="188"><figcaption></figcaption></figure>
 
@@ -27,8 +25,6 @@ Gilroy Lab, University of Wisconsin Madison, USA
 Dr Christina Johnson, Lori Waters, MSc, Emily Helton, Joshua Revels
 
 UW-Madison, ARC, KSC and the JSC Education Resource Center
-
-### &#x20;<a href="#mr1nbxnfln3u" id="mr1nbxnfln3u"></a>
 
 ### AstroBotany Educational Ethos, tools and techniques <a href="#mr1nbxnfln3u" id="mr1nbxnfln3u"></a>
 
@@ -88,7 +84,7 @@ One of the greatest tools a researcher has is the strength to ask a well-structu
 
 **Figure 7: (A)** Cell Cultures can be grown from any plant and plants can be generated from cell cultures. **(B)** The cell cultures can acquire a range of characteristics depending on the genome they have, the organ they came from and the stimuli they are provided.
 
-### STAGE VI Summary: **Modeling auxin transport and movement** <a href="#e63implf3dp0" id="e63implf3dp0"></a>
+### **Modeling auxin transport and movement** <a href="#e63implf3dp0" id="e63implf3dp0"></a>
 
 Understanding how auxin affects plants at a cellular level is difficult and requires computers to model and make simulations. These computer programs are designed to use mathematical models to describe the physical and mechanical characteristics of how cells function. These models can be used to investigate how chemicals might move across membranes to form concentration gradients. This movement is often coordinated by special proteins that sit in cell membranes and are responsible for transporting important signalling hormones. Some transporters are influenced by environmental factors such as light and gravity. The SimuPlant modelling software allows you to explore this fundamental biology at a cellular and molecular scale. Read a [summary of the model here](https://www.ebi.ac.uk/biomodels/content/model-of-the-month?year=2013\&month=01) and down the [SimuPlant](https://www.simuplant.org/) modelling software.
 
@@ -96,7 +92,7 @@ Understanding how auxin affects plants at a cellular level is difficult and requ
 
 **Figure 8: (A)** Cellular model showing the subcellular location of Auxin transport and signalling components. **(B)** Root tip model illustrating auxin levels predicted by the reverse foundation model of auxin movement in the root and lateral apexes. Here’s a link to a [video of the model in action](https://www.youtube.com/watch?v=emd6tUy1pBo\&ab\_channel=RichardBarker).
 
-### Program Stage VII Summary: **STAGE VII: Phototropic Response of Microgreens Grown in Simulated Microgravity** <a href="#q5yflw39kqlv" id="q5yflw39kqlv"></a>
+### **Phototropic Response of Microgreens Grown in Simulated Microgravity** <a href="#q5yflw39kqlv" id="q5yflw39kqlv"></a>
 
 * The most advanced stage of AIRI focuses on the effects that simulated microgravity has on the development of microgreens. This will be achieved through the utilization of the CoSE Gravity Chamber (or any DIY 2D slow-rotating vessels you may have).
 * More information on 3D clinostats found at CoSEcloud.com
