@@ -6,7 +6,7 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 
 **Supplies:**
 
-* For a quick easy protocol you could try [Hamama kit](https://www.hamama.com/), or create your own system.&#x20;
+* For a quick easy protocol you could try [Hamama kit](https://www.hamama.com/), or create your own rooting system.&#x20;
   * Standard “1020 Planting Trays” or Standard lab weighing tray, or Petri dishes&#x20;
 * Record your experimental design, in your "science journal" or try a online platform such as [Benchling](https://www.benchling.com/).
 * Two two seed types need to be grown in parallel for comparison
@@ -29,11 +29,11 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 
 ### **STAGE III Protocol Leaf Analysis** <a href="#dk0cvmxse3pz" id="dk0cvmxse3pz"></a>
 
-* **Preparations to be conducted prior to starting:** Download and install Easy Leaf Area and Easy Leaf Canopy Free on android devices. Alternatively plants can be imaged with cameras and then the images transferred to a PC or Mac OS for subsequent analysis.
+* **Preparations to be conducted prior to starting:** Download and install Easy Leaf Area and Easy Leaf Canopy Free on android devices. Alternatively, plants can be imaged with cameras and then the images transferred to a PC or Mac OS for subsequent analysis.
 
 (See Getting Started on Easy Leaf Area section for details).
 
-* Print red color scales (These files are included in the Easy Leaf Program file) this makes its easier to measure your greens (alternatively you can add the red square manually later but this can introduce error if the scale is wrong).
+* Print red color scales (These files are included in the Easy Leaf Program file) this makes it is easier to measure your greens (alternatively you can add the red square manually later but this can introduce errors if the scale is wrong).
 * Gather trays depending on the amount of growing groups (Ex: Four groups, two trays each), check they don’t leak.
 * Check light intensity, temperature and any timers or time-lapse photography devices you plan to use.
 
@@ -43,7 +43,7 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 
 ### **STAGE III: Microgreen Planting Protocol**
 
-* Use the [Hamama kit](https://www.hamama.com/) instructions, or
+* Use the [Hamama kit](https://www.hamama.com/) instructions, or make you own rooting system.
   * If not using the kit, please precisely record any variations in your protocol using your “Science Journal”.
   * Fill a single tray with dry soil and weigh (Record the weight of this tray and use it as a reference for subsequent trays).
   * Pick out dry seeds to be used (At least two different seed types).
@@ -59,9 +59,9 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 * Mist soil daily in order to keep it damp.
 * Measure the light intensity above your plant canopy. An easy way to do this is download the “Google Science Journal Application ''. This tool allows you to use your smart device's camera to measure the light intensity. Try to get the device right in the center of the tray. You can even create a map to show the light distribution over your entire canopy.
 
-<figure><img src=".gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>(A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>(A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water.</p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>(B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>(B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna.</p></figcaption></figure>
 
 **Figure 12:** (A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water. (B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna. This system, while basic, provides valuable data regarding biomass and growth rates for microgreen species.
 
@@ -92,7 +92,7 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 
 * Place ruler at soil level
 * Using a second ruler (this can also be a pencil, firm cardboard) find the highest point of the plant in the microgreen tray.
-* Record measurement in cm in the provided data collecting spreadsheet template
+* Record measurement in cm in the provided data-collecting spreadsheet template
 * Do this on the 4th, 8th, and 12th day after planting
 
 **General Observations Protocols:**
@@ -101,7 +101,7 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
   * Ambient temperature at the time of recording
   * Elevation
   * Date and Time of observations
-* In the provided template observations document, participants should record observations regarding regarding all data points collected as well as qualitative records regarding the following points:
+* In the provided template observations document, participants should record observations regarding all data points collected as well as qualitative records regarding the following points:
   * Rate of growth
   * General plant health
   * Growth distribution within a given growing tray
@@ -131,9 +131,16 @@ Easy leaf area is free, open source, software that rapidly measures leaf area in
 * This program analyzes single jpeg or tiff images or batches of images for leaf area.
 * Images must have a red scale of known area in the image in the same plane as the leaves for the program to use as a reference scale (This can be added in photoshop or other “Paint” software packages).
 * Download and install Easy Leaf Area on a designated computer or [**Android** ](https://play.google.com/store/apps/details?id=com.heaslon.EasyLeafArea)device application.
-  * This software runs on android as an app, or can be used with images moved to a PC, linux or MacOS.
+  * This software runs on Android as an app, or can be used with images moved to a PC, linux or MacOS.
   * [https://github.com/heaslon/Easy-Leaf-Area](https://github.com/heaslon/Easy-Leaf-Area)
-* Follow the instruction on their website: [https://github.com/heaslon/Easy-Leaf-Area](https://github.com/heaslon/Easy-Leaf-Area)
+* Follow the instructions on their website: [https://github.com/heaslon/Easy-Leaf-Area](https://github.com/heaslon/Easy-Leaf-Area)
+* If you used an AstroBotany Spectral calibration sticker then you should be able to used the new SOAPP image analysis software.
+
+[https://github.com/lvbauer/soapp-tutorial/blob/main/soapp-guide.md](https://github.com/lvbauer/soapp-tutorial/blob/main/soapp-guide.md)
+
+Note: more work is needed expanding this part of the tutorial.&#x20;
+
+
 
 ### **Data Analysis Protocol**
 
@@ -145,15 +152,16 @@ Easy leaf area is free, open source, software that rapidly measures leaf area in
 
 * Students are given an [example ](https://docs.google.com/spreadsheets/d/1NIJLvMePCzTk8kKfVo\_ePQOXW2zHa8bazv1O1rKtkqM/edit?usp=sharing)spreadsheet
 * Students can use these demo data to practice using these analysis tools.
-* Eventually the students will enter their own data into their classes shared spreadsheet and then analyse it using these applications.
+* Eventually, the students will enter their own data into their class's shared spreadsheet and then analyse it using these applications.
 
-**Numbers entered into a google spreadsheet, attached link.**
+**Numbers are entered into a Google spreadsheet, attached link.**
 
 **Goal:** Students make graphs using transitional tools like spreadsheets and “R-shiny” applications. These tools are specifically designed to process data to produce standardized and flexible graphs.
 
 * How to make a [Boxplot](http://shiny.chemgrid.org/boxplotr/) R-shiny
 * Play with data in [GGPlot](https://site.shinyserver.dck.gmw.rug.nl/ggplotgui/) R-shiny
 * How to make a [bar plot using R-Plotly](https://docs.google.com/document/d/1bueze0FoVhUslthJ6rgQ2Pz9njW5mvefff2N4KlUbac/edit?usp=sharing)
+* New root growth analysis tool called root [RootFit](https://github.com/RootFitProject/rootfit)&#x20;
 
 **Statistics**
 
@@ -171,7 +179,7 @@ Easy leaf area is free, open source, software that rapidly measures leaf area in
 **Goal:** Observe a real experimental data matrix and then make your own
 
 * Primary data
-* Environmental meta-data
+* Environmental meta-data to try and measure.
   * Temp
   * Humidity
   * Light quality
@@ -186,3 +194,15 @@ Easy leaf area is free, open source, software that rapidly measures leaf area in
 **Data analysis**
 
 <figure><img src="https://lh7-us.googleusercontent.com/olSFgTdPw0k7lK2Q0MMXIayMei0sBbmG3ADgzVuHvD5KvLwj1-vpCQuv7hnpzh4klUyKJb7Wc9tWWHPtX_3MnP-axd0esY3j084JkWXTNgVyov__3S2u6f1-wZMuMGDx3UDxrTWj8Gm6-pK-44R-zA" alt=""><figcaption></figcaption></figure>
+
+
+
+Alternatively, you could create your own datasharing treaure hunt using [uoVidiWeb application](https://quovidi.github.io/).&#x20;
+
+[![](https://quovidi.github.io/assets/img/logo.png)](https://quovidi.github.io/)[QuoVidiWeb application for large scale treasure hunts](https://quovidi.github.io/)
+
+{% embed url="https://quovidi.github.io/" %}
+
+Find out more by reading their paper: doi: https://doi.org/10.1101/2020.06.30.177006
+
+&#x20;

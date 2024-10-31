@@ -116,7 +116,7 @@ For experimental data to be significant, it needs to be based on repetitive tria
   * Measure the presentation time (Barker et al., 2016 Methods in molecular biology chapter. Link coming soon).
 * All experimental protocols should be logged in the lab sheet/log
 
-### **STAGE VI Summary and Application Discussion on the impacts of gravity on plant development**
+### **STAGE VI Summary and Application: Discussion on the impacts of gravity on plant development**
 
 * Based on the prior investigations; what are possible developmental/engineering challenges to growing microgreens in microgravity.
 * How can the morphological differences observed affect essential processes in microgreen development? (EX: nutrient intake, gas exchange)
