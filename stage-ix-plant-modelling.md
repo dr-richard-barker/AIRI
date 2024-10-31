@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/image.png
+cover: .gitbook/assets/image (2).png
 coverY: 0
 ---
 
@@ -17,7 +17,7 @@ CplantBox:&#x20;
 
 Change the parameters and see how the morphology changes
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 More information in this github
 

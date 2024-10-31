@@ -254,6 +254,6 @@ A new Machine learning approach known as Primal is worth further investigation
 
 DOI[dx.doi.org/10.17504/protocols.io.h7bb9in](https://dx.doi.org/10.17504/protocols.io.h7bb9in)
 
-![PRIMAL: Pipeline of Root Image analysis using MAchine Learning](https://content.protocols.io/j4idmie.jpg)![](<.gitbook/assets/image (20).png>)
+![PRIMAL: Pipeline of Root Image analysis using MAchine Learning](https://content.protocols.io/j4idmie.jpg)![](<../.gitbook/assets/image (20).png>)
 
 {% embed url="https://www.protocols.io/view/primal-pipeline-of-root-image-analysis-using-machi-n92ldwq7v5br/v1" %}

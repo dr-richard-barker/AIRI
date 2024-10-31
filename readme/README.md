@@ -64,7 +64,7 @@ In this stage, participants will grow microgreens in the soil in order to collec
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Figure 5:** Example analysis showing photos taken each day for 6 days starting just before sample harvest and consumption began. Photography was also performed of the subsequent nutrition enhancements of meal time (see twitter and Instagram for microgreen enhanced meal time). Source: Dr Richard Barker unpublished citizen science demo data.
 
@@ -74,7 +74,7 @@ Software options for this project can help you collect important meta-data, and 
 
 This stage will focus on growing microgreens on plant-based agar or wet filter paper to observe and measure root growth kinetics. After recording initial root growth at three-time points (e.g., days 3, 4, and 5 post-germination), the gravity vector will be rotated 90 degrees to observe root adaptation to this stimulus.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Figure 6: (A)** Root length measurements. **(B)** Hypocol measurements. **(C)** Direction of root or shoot growth for 4 ecotypes of _Arabidopsis thaliana (Col-0, WS, Ler, Cvi)_ displayed as nightingale plots with a bin size of 10. **(D)** Scatter plot showing the gravitropic reorientation, \_e\_rror bars show the standard error. **(E)** Anova statistics are used to show differences based on variety and time points. (F) Example photography of Mizuna (or other microgreens) at 3 developmental stages that can be used to generate data like these. Source: Dr Richard Barker unpublished citizen science demo data.
 
