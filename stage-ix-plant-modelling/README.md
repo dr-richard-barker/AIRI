@@ -1,5 +1,5 @@
 ---
-cover: .gitbook/assets/image (2).png
+cover: ../.gitbook/assets/image (2).png
 coverY: 0
 ---
 
@@ -9,7 +9,7 @@ Zhou, X., Schnepf, A., Vanderborght, J., Leitner, D., Lacointe, A., Vereecken, H
 
 CplantBox:&#x20;
 
-<figure><img src=".gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ## Example Simulation videos available in Youtube Channel&#x20;
 
@@ -17,7 +17,7 @@ CplantBox:&#x20;
 
 Change the parameters and see how the morphology changes
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 More information in this github
 
