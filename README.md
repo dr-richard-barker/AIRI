@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/image (27).png
+coverY: 0
+---
+
 # Project management page
 
 Link to brainstorming document
