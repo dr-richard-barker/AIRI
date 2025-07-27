@@ -11,7 +11,7 @@ Link to brainstorming document
 
 {% embed url="https://docs.google.com/document/d/1UTku-Uz7JOgmmkbhHrqbzwY-krKYZRaklirPCMPxhZM/edit?usp=sharing" %}
 
-[`Link to project planning spreadsheet`](https://docs.google.com/spreadsheets/d/1IIUTQAWlzfWNmso599cbt8AhV6dymmKCYwt1Kq18bCE/edit?usp=sharing) `please add or select workpackages of interest.`
+[`Link to project planning spreadsheet`](https://docs.google.com/spreadsheets/d/1IIUTQAWlzfWNmso599cbt8AhV6dymmKCYwt1Kq18bCE/edit?usp=sharing) - Please use this spreadsheet to add or select work packages of interest.
 
 
 
