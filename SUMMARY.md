@@ -1,9 +1,9 @@
 # Table of contents
 
-* [Project management page](README.md)
-* [AIRI: Astrobotany International Research Initiative Program Summary and cover page](readme/README.md)
-  * [AIRI course links to Next Generation Science Standards (NGSS)](readme/airi-course-links-to-next-generation-science-standards.md)
+* [Project management page](project_management/README.md)
+* [AIRI: Astrobotany International Research Initiative Program Summary and cover page](README.md)
 * [Introduction to AstroBotany and online data sharing](airi-astrobotany-introduction/README.md)
+  * [AIRI course links to Next Generation Science Standards (NGSS)](airi-astrobotany-introduction/airi-course-links-to-next-generation-science-standards.md)
   * [Table 1: AIRI Experimental Course Map](airi-astrobotany-introduction/table-1-airi-experimental-course-map.md)
 * [Stage I: Space Invaders Data Literacy](stage-i-space-invaders-data-literacy/README.md)
   * [Welcome to the AIRI Data Literacy Space Invaders League](stage-i-space-invaders-data-literacy/welcome-to-the-airi-data-literacy-space-invaders-league.md)
