@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Project management page](project_management/README.md)
-* [AIRI: Astrobotany International Research Initiative Program Summary and cover page](README.md)
+* [AIRI: Astrobotany International Research Initiative Program Summary and cover page](index.md)
 * [Introduction to AstroBotany and online data sharing](airi-astrobotany-introduction/README.md)
   * [AIRI course links to Next Generation Science Standards (NGSS)](airi-astrobotany-introduction/airi-course-links-to-next-generation-science-standards.md)
   * [Table 1: AIRI Experimental Course Map](airi-astrobotany-introduction/table-1-airi-experimental-course-map.md)
