@@ -1,0 +1,1507 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Astrobotany Educational Ethos, tools and techniques">
+      
+      
+        <meta name="author" content="Gilbert Cauthorn, Sophia Griffith, Rachel Wang, and Dr. Richard Barker">
+      
+      
+        <link rel="canonical" href="https://dr-richard-barker.github.io/AIRI/stage-vi-computational-modeling-of-plant-hormone-transport./">
+      
+      
+        <link rel="prev" href="../research-stage-vi-gravitropism-assays/">
+      
+      
+        <link rel="next" href="../stage-viii-root-modelling/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Stage VII: Modelling of plant hormone transport. - AIRI - Astrobotany International Research Initiative</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="light-green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#stage-vii-computational-modelling-of-plant-hormone-transport" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="AIRI - Astrobotany International Research Initiative" class="md-header__button md-logo" aria-label="AIRI - Astrobotany International Research Initiative" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            AIRI - Astrobotany International Research Initiative
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Stage VII: Modelling of plant hormone transport.
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="light-green"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="AIRI - Astrobotany International Research Initiative" class="md-nav__button md-logo" aria-label="AIRI - Astrobotany International Research Initiative" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    AIRI - Astrobotany International Research Initiative
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../project_management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project management page
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AIRI: Astrobotany International Research Initiative Program Summary and cover page
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../airi-astrobotany-introduction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to AstroBotany and online data sharing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../airi-astrobotany-introduction/airi-course-links-to-next-generation-science-standards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AIRI course links to Next Generation Science Standards (NGSS)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../airi-astrobotany-introduction/table-1-airi-experimental-course-map/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Table 1: AIRI Experimental Course Map
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-i-space-invaders-data-literacy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage I: Space Invaders Data Literacy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-i-space-invaders-data-literacy/welcome-to-the-airi-data-literacy-space-invaders-league/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Welcome to the AIRI Data Literacy Space Invaders League
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-ii-whats-your-favorite-microgreen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage II: What's your favorite microgreen?
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-ii-whats-your-favorite-microgreen/tables-of-microgreen-growth-rates-and-example-conditions-to-use-a-general-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Table 2: Microgreen Growth Rates and example conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-v-auxin-and-plant-cloning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage V: Auxin and Plant Cloning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-iii-growth-of-microgreens-in-terrestrial-environments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage III: Growth of Microgreens in Terrestrial Environments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-iii-growth-of-microgreens-in-terrestrial-environments/space-biology-photography-guide-and-lesson-brainstorming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Space Biology Photography Guide and Lesson Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research-stage-iv-microgreen-development-and-gravitropic-response/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage IV: Microgreen development and gravitropic response
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research-stage-iv-microgreen-development-and-gravitropic-response/gravity-and-mechanical-sensing-in-plants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gravity and mechanical sensing in plants
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction-to-system-biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introduction to Systems Biology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../research-stage-vi-gravitropism-assays/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage VI: Micro-Gravi-tropism assays
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage VII: Modelling of plant hormone transport.
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage VII: Modelling of plant hormone transport.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#root-tissue-and-gravity-perception" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Root Tissue and Gravity Perception
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomy-of-root-tissue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anatomy of Root Tissue
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gravity-perception-in-roots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravity Perception in Roots
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gravity Perception in Roots">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gravitropism-gravitropism-the-growth-response-of-plants-to-gravity-is-critical-for-proper-root-development-roots-grow-downward-positive-gravitropism-to-anchor-the-plant-and-access-deeper-water-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravitropism: Gravitropism, the growth response of plants to gravity, is critical for proper root development. Roots grow downward (positive gravitropism) to anchor the plant and access deeper water sources.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mechanism-of-gravity-perception" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mechanism of Gravity Perception
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simuplant-hormone-modeling-tool-link-to-research-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SimuPlant Hormone Modeling Tool (Link to research paper)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SimuPlant Hormone Modeling Tool (Link to research paper)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#platform-compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Platform Compatibility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Download Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-viii-root-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage VIII: Root Modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-viii-root-modelling/modelling-water-movement-in-roots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modelling water movement in roots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-viii-root-modelling/hydropatterning-model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hydropatterning model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-ix-plant-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage IX: Plant modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-ix-plant-modelling/planet-maize/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PlaNet-maize
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-ix-plant-modelling/photosynthesis-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Photosynthesis modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-x-mining-rnaseq-for-cellular-metabolism-modelling/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage X: Mining RNAseq for cellular metabolism modelling
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stage-xi-mining-membrane-based-interactome-database/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stage XI: Mining Membrane-based Interactome Database
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../other-useful-shiny-applications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Other useful shiny applications
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#root-tissue-and-gravity-perception" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Root Tissue and Gravity Perception
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anatomy-of-root-tissue" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anatomy of Root Tissue
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gravity-perception-in-roots" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravity Perception in Roots
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gravity Perception in Roots">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gravitropism-gravitropism-the-growth-response-of-plants-to-gravity-is-critical-for-proper-root-development-roots-grow-downward-positive-gravitropism-to-anchor-the-plant-and-access-deeper-water-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravitropism: Gravitropism, the growth response of plants to gravity, is critical for proper root development. Roots grow downward (positive gravitropism) to anchor the plant and access deeper water sources.
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mechanism-of-gravity-perception" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mechanism of Gravity Perception
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#simuplant-hormone-modeling-tool-link-to-research-paper" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SimuPlant Hormone Modeling Tool (Link to research paper)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SimuPlant Hormone Modeling Tool (Link to research paper)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#platform-compatibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Platform Compatibility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Download Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installation-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Installation Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Additional Resources
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="stage-vii-computational-modelling-of-plant-hormone-transport">Stage VII: Computational modelling of plant hormone transport.</h1>
+<h3 id="root-tissue-and-gravity-perception">Root Tissue and Gravity Perception</h3>
+<h3 id="introduction">Introduction</h3>
+<p>Root tissues are vital components of a plant, responsible for numerous functions including anchorage, absorption of water and nutrients, and storage of food. Understanding the structure and function of root tissues is fundamental to grasping how plants interact with their environment, particularly in response to gravity, a phenomenon known as gravitropism.</p>
+<h3 id="anatomy-of-root-tissue">Anatomy of Root Tissue</h3>
+<p>It is important to understand the anatomy of Root tissues and how they are organized into several layers, each with distinct roles:</p>
+<ol>
+<li><strong>Epidermis</strong></li>
+<li>The outermost layer providing protection.</li>
+<li>Absorbs water and nutrients from the soil.</li>
+<li><strong>Cortex</strong></li>
+<li>Located just beneath the epidermis.</li>
+<li>Facilitates storage and transport of nutrients and water.</li>
+<li><strong>Endodermis</strong></li>
+<li>Acts as a selective barrier controlling the flow of substances into the vascular system.</li>
+<li><strong>Pericycle</strong></li>
+<li>Initiates the growth of lateral roots.</li>
+<li><strong>Vascular Tissue (Xylem and Phloem)</strong></li>
+<li>Xylem transports water and dissolved minerals from roots to shoots.</li>
+<li>Phloem distributes sugars and organic nutrients from shoots to roots.</li>
+</ol>
+<h3 id="_1"></h3>
+<h3 id="gravity-perception-in-roots">Gravity Perception in Roots</h3>
+<h4 id="gravitropism-gravitropism-the-growth-response-of-plants-to-gravity-is-critical-for-proper-root-development-roots-grow-downward-positive-gravitropism-to-anchor-the-plant-and-access-deeper-water-sources">Gravitropism: Gravitropism, the growth response of plants to gravity, is critical for proper root development. Roots grow downward (positive gravitropism) to anchor the plant and access deeper water sources.</h4>
+<h4 id="mechanism-of-gravity-perception">Mechanism of Gravity Perception</h4>
+<ul>
+<li><strong>Amyloplasts</strong>: Specialized plastids in root cap cells that act as gravity sensors.</li>
+<li>Contain dense starch grains that settle within the cell under the influence of gravity.</li>
+<li>Their movement triggers a signaling pathway modifying the distribution of growth hormones like auxins.</li>
+<li><strong>Auxins</strong>: Hormones regulating cell elongation.</li>
+<li>Redistribution of auxins to the lower side of the root inhibits cell elongation on that side.</li>
+<li>This causes the root to bend downward, orienting its growth in the direction of gravity.</li>
+</ul>
+<h3 id="simuplant-hormone-modeling-tool-link-to-research-paper">SimuPlant Hormone Modeling Tool (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4001398/">Link to research paper</a>)</h3>
+<h4 id="platform-compatibility">Platform Compatibility</h4>
+<p>The SimuPlant hormone modeling tool is available for both MaxOS and Windows OS users. This ensures that a wide range of users can benefit from its powerful features and tools, regardless of their operating system preference.</p>
+<h4 id="download-instructions">Download Instructions</h4>
+<p>To get started with SimuPlant, follow these steps:</p>
+<ol>
+<li><strong>Visit the Official Website:</strong> <a href="https://www.simuplant.org/PlantHormoneModelingTool">SimuPlant Download Page</a></li>
+<li><strong>Select Your Operating System:</strong> Choose either the MacOS or Windows OS option to ensure compatibility with your device.</li>
+<li><strong>Download the Installer:</strong> Click on the download button to get the installer file for SimuPlant.</li>
+</ol>
+<h4 id="installation-instructions">Installation Instructions</h4>
+<p>After downloading the installer, follow these steps to install SimuPlant on your computer:</p>
+<ol>
+<li><strong>Locate the Downloaded File:</strong> Find the downloaded installer file on your computer. It is usually located in the "Downloads" folder unless you specified a different location.</li>
+<li><strong>Run the Installer:</strong></li>
+<li><strong>MacOS Users:</strong> Open the .dmg file and drag the SimuPlant application to your Applications folder.</li>
+<li><strong>Windows Users:</strong> Run the .exe file and follow the on-screen instructions to complete the installation.</li>
+<li><strong>Launch SimuPlant:</strong> Once installation is complete, you can start using SimuPlant by opening the application from your Applications folder (MacOS) or Start Menu (Windows).</li>
+</ol>
+<h4 id="additional-resources">Additional Resources</h4>
+<p>For more information on how to use SimuPlant and take full advantage of its features, refer to the user manual and tutorials available on the official website.</p>
+<p><a href="https://www.simuplant.org/UserManual">SimuPlant User Manual</a>\
+<a href="https://www.simuplant.org/Tutorials">SimuPlant Tutorials</a></p>
+<hr />
+<p>By following these instructions, you will be able to download, install, and begin using the SimuPlant hormone modelling tool on your MacOS or Windows OS computer. If you encounter any issues during the process, consult the troubleshooting section in the user manual or reach out to the support team via the contact information provided on the SimuPlant website. Happy modeling!<a href="https://www.simuplant.org/"> Link to SimuPlant modelling tool</a>.</p>
+<p><strong>Observational and Data Collection Protocol</strong></p>
+<p><strong>Observation</strong></p>
+<ul>
+<li>Record notes on the Auxin distribution in the different modeles you create</li>
+<li>Change the model specification</li>
+<li>Save the time lapse videos of the simulated visualizations</li>
+<li>Save the simulated output data</li>
+<li>Save the simulation parameters</li>
+<li>Make a slideshow and report discussing your models predictions.</li>
+<li>More information about the model can be found here</li>
+</ul>
+<figure><img src="https://lh7-us.googleusercontent.com/ouqospWysvxAbj3IoYTyBI1k84yG_-Wm9O2Ux_WzioiqpaK-gJjt74Cumk5naZtvahpFrYSsyH2h1CfKhuzEuLlNbuQzntfdaRh_picwoqTEXd6SWRJP7LWg2EVlO5XIqdI9_53c_321HJJtBqgohw" alt=""><figcaption></figcaption></figure>
+
+<p><strong>Summary and Application Discussion</strong></p>
+<p><strong>Follow Up Inquiry:</strong></p>
+<ul>
+<li>Based on the observations made during this study, what conclusions can be made about the movement of auxin in root tips of plants?</li>
+<li>Do you think this will influence roots growth?</li>
+<li>Justify your previous answer?</li>
+<li>How would this change in the environment such as the absence of gravity effect auxin distribution in the root?</li>
+</ul>
+<p><strong>Expansion:</strong></p>
+<ul>
+<li>Based on these observations, what directions do plants grow towards? (stems, leaves)</li>
+<li>How can this idea be tested?</li>
+</ul>
+<p><strong>STAGE VI: Preparations to be Conducted Prior to Starting Plant Hormone Modeling</strong></p>
+<ul>
+<li><strong>Literature Review</strong></li>
+<li>Conduct an extensive literature review to understand existing models and methodologies.</li>
+<li>Compile recent research papers, review articles, and case studies relevant to plant hormone modeling.</li>
+<li><strong>Identify Objectives</strong></li>
+<li>Clearly define the objectives of the modeling study.</li>
+<li>Determine specific questions you aim to answer through the model.</li>
+<li><strong>Select Hormones</strong></li>
+<li>Identify the specific plant hormones to be included in the model (e.g., auxins, gibberellins, cytokinins, abscisic acid, ethylene).</li>
+<li>Understand the roles and interactions of selected hormones.</li>
+<li><strong>Gather Data</strong></li>
+<li>Collect quantitative and qualitative data on hormone levels, environmental factors, and plant responses.</li>
+<li>Ensure data accuracy and relevance for effective modeling.</li>
+<li><strong>Choose Modeling Approach</strong></li>
+<li>Decide on the type of model (e.g., mathematical, computational, statistical).</li>
+<li>Evaluate the pros and cons of different modeling approaches.</li>
+<li><strong>Software and Tools</strong></li>
+<li>Select appropriate software and tools required for the modeling process.</li>
+<li>Ensure familiarity with the chosen software (e.g., MATLAB, R, Python).</li>
+<li><strong>Parameter Estimation</strong></li>
+<li>Identify key parameters that will influence the model.</li>
+<li>Develop methods for estimating these parameters accurately.</li>
+<li><strong>Initial Conditions and Assumptions</strong></li>
+<li>Define initial conditions of the model and the biological system.</li>
+<li>List and justify any assumptions made during the modeling process.</li>
+<li><strong>Develop Hypotheses</strong></li>
+<li>Formulate hypotheses regarding plant hormone dynamics and interactions.</li>
+<li>Align these hypotheses with the overall objectives of the study.</li>
+<li><strong>Collaboration and Consultation</strong></li>
+<li>Consult with experts in plant physiology, biochemistry, and computational biology.</li>
+<li>Collaborate with interdisciplinary teams to gain diverse insights and expertise.</li>
+<li><strong>Plan Validation</strong></li>
+<li>Develop a plan for validating the model.</li>
+<li>Identify experimental data and real-world scenarios to test model predictions.</li>
+<li><strong>Risk Assessment</strong></li>
+<li>Assess potential risks and limitations associated with the modeling project.</li>
+<li>Develop contingency plans to address these risks.</li>
+<li><strong>Documentation</strong></li>
+<li>Document all preparatory steps, assumptions, and methodologies.</li>
+<li>Maintain a clear and comprehensive record to facilitate future reference and reproducibility.</li>
+<li><strong>Timeline and Milestones</strong></li>
+<li>Establish a clear timeline with specific milestones for each phase of the project.</li>
+<li>Track progress systematically to ensure timely completion of the model.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
