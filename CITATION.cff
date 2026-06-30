@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "AIRI: Astrobotany International Research Initiative"
+message: "If you use AIRI in teaching or research, please cite it."
+type: dataset
+abstract: >-
+  AIRI is a free, open, project-based astrobotany education program. Learners grow
+  microgreens, measure gravitropic responses, collect and share FAIR data, and
+  progress from data literacy through computational plant modelling.
+authors:
+  - family-names: Cauthorn
+    given-names: Gilbert
+  - family-names: Griffith
+    given-names: Sophia
+  - family-names: Wang
+    given-names: Rachel
+  - family-names: Barker
+    given-names: Richard
+    # Add ORCID iDs here, e.g. orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - astrobotany
+  - space biology
+  - plant science
+  - STEM education
+  - NGSS
+  - citizen science
+  - microgreens
+  - gravitropism
+  - FAIR data
+license: CC0-1.0
+repository-code: "https://github.com/dr-richard-barker/AIRI"
+url: "https://dr-richard-barker.github.io/AIRI/"
+version: "1.0.0"
+date-released: "2026-06-30"

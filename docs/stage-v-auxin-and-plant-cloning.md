@@ -63,7 +63,7 @@ Add 100 ul kinetin, 667 ul 1M NaOH (to prepare 1M NaOH: Add 1.99g NaOH in 50 mL 
 
 
 
-<figure><img src=".gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 ### **Cloning/cuttings protocol**
 
