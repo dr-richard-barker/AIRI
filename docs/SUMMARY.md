@@ -30,6 +30,8 @@
         * [Photosynthesis Modelling](stage-ix-plant-modelling/photosynthesis-modelling.md)
     * [Stage X: Mining RNAseq for Cellular Metabolism Modelling](stage-x-mining-rnaseq-for-cellular-metabolism-modelling.md)
     * [Stage XI: Mining Membrane-based Interactome Database](stage-xi-mining-membrane-based-interactome-database.md)
+    * [Designing a Systems Biology Course](introduction-to-system-biology.md)
 * Reference & Tools
-    * [Introduction to Systems Biology](introduction-to-system-biology.md)
+    * [Tools & Software](tools.md)
+    * [Literature & References](references.md)
     * [Project Management](project_management/README.md)
