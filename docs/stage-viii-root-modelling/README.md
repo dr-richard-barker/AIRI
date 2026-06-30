@@ -58,7 +58,7 @@ Building a System Biology Modelling Class with Software and Concepts The sources
 
 Find out more by reading this paper:&#x20;
 
-{% embed url="https://academic.oup.com/aob/article/121/5/1033/4844040" %}
+📄 [Read the paper (Annals of Botany)](https://academic.oup.com/aob/article/121/5/1033/4844040)
 
 ***
 
@@ -66,7 +66,7 @@ Find out more by reading this paper:&#x20;
 
 Then check out this website
 
-{% embed url="https://plant-root-soil-interactions-modelling.github.io/CRootBox/" %}
+🔗 [CRootBox root architecture model](https://plant-root-soil-interactions-modelling.github.io/CRootBox/)
 
 ***
 
@@ -74,7 +74,7 @@ Then check out this website
 
 Then perform your own modelling with this RShiny Application
 
-{% embed url="https://plantmodelling.shinyapps.io/shinyRootBox/" %}
+🖥️ [shinyRootBox interactive app](https://plantmodelling.shinyapps.io/shinyRootBox/)
 
 ***
 
@@ -94,13 +94,13 @@ All the parameters used are shared in this configuration file
 
 
 
-{% @github-files/github-code-block url="https://github.com/MARSHAL-ROOT/marshal-pipeline" %}
+💻 [MARSHAL pipeline source code (GitHub)](https://github.com/MARSHAL-ROOT/marshal-pipeline)
 
 
 
 The Shint application is fun
 
-{% embed url="https://plantmodelling.shinyapps.io/marshal/" %}
+🖥️ [MARSHAL interactive app](https://plantmodelling.shinyapps.io/marshal/)
 
 
 

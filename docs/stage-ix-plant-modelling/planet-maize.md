@@ -6,7 +6,7 @@ The focus of PlaNet-Maize is to investigate the effect of environmental and endo
 
 ***
 
-{% embed url="https://plantmodelling.shinyapps.io/PlaNet_Maize/" %}
+🖥️ [PlaNet-Maize interactive app](https://plantmodelling.shinyapps.io/PlaNet_Maize/)
 
 
 

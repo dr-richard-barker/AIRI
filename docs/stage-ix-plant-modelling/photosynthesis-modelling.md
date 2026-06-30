@@ -2,7 +2,7 @@
 
 
 
-{% embed url="https://biocycle.atmos.colostate.edu/shiny/photosynthesis/" %}
+🖥️ [Photosynthesis model (interactive Shiny app)](https://biocycle.atmos.colostate.edu/shiny/photosynthesis/)
 
 <figure><img src="../gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 

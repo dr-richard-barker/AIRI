@@ -4,7 +4,7 @@
 
 Check out this review article
 
-{% embed url="https://onlinelibrary.wiley.com/doi/10.1002/pld3.582" %}
+📄 [Read the paper (Plant Direct)](https://onlinelibrary.wiley.com/doi/10.1002/pld3.582)
 
 <figure><img src="../gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
@@ -12,7 +12,7 @@ Check out this review article
 
 Check out the shiny application to identify most important facters affect the soil-plant-atmopshere continuum
 
-{% embed url="https://roothydraulic-properties.shinyapps.io/database/" %}
+🖥️ [Root hydraulic properties database (Shiny app)](https://roothydraulic-properties.shinyapps.io/database/)
 
 ## Now try MECHA!
 
