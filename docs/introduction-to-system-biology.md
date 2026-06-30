@@ -1,4 +1,10 @@
-# Introduction to System biology
+# Designing a Systems Biology Course
+
+!!! info "Advanced / educator resource"
+    This page outlines how the AIRI tools and research can be assembled into a
+    university-level **systems biology course**. The software it mentions is summarised on
+    the [Tools & Software](tools.md) page, and the bracketed citations correspond to the
+    [Literature & References](references.md) list.
 
 ### Creating a Systems Biology Course Using Root Biology Research
 
