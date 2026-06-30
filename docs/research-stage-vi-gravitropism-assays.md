@@ -146,11 +146,11 @@ For experimental data to be significant, it needs to be based on repetitive tria
 
 <figure><img src="https://lh7-us.googleusercontent.com/C69n_kte7D8cIS20JWBOTehZPmeAwg791KmZ0hCRjIUA6Yytujc0VmnagTfPh_DrRFC6zhA330DeeXKfKn5TSnf7qbTZhWF0IPCz07tv3cTaTHmHaqal7DWKc5ceh8m4yt-hrWC981gKUrBFqWGWhA" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="gitbook/assets/image (13).webp" alt=""><figcaption><p>Empty clinostat from CoSE</p></figcaption></figure>
+<figure><img src="../gitbook/assets/image (13).webp" alt=""><figcaption><p>Empty clinostat from CoSE</p></figcaption></figure>
 
 
 
-<figure><img src="gitbook/assets/image (14).webp" alt=""><figcaption><p>2D clinsotat with control plates. </p></figcaption></figure>
+<figure><img src="../gitbook/assets/image (14).webp" alt=""><figcaption><p>2D clinsotat with control plates. </p></figcaption></figure>
 
 ### Stage V Protocols for microgravity simulators <a href="#g517wjh83dtl" id="g517wjh83dtl"></a>
 
