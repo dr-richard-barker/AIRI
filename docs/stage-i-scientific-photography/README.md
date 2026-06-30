@@ -60,21 +60,36 @@ Remember the **4 C's**:
 - [ ] Same distance and lighting as your last photo
 - [ ] Save the photo with the plant name, date, and time
 
-## The AstroBotany Spectrum scale bar
+## The AstroBotany Spectrum: your "AstroCalibration" marker
 
-The [**AstroBotany Spectrum**](https://astrobotany.com/product/airi-bio-imaging-spectrum-5cm/)
-is a small printed strip of known size and colour. Including it in every photo lets
-free software automatically work out how big your plant is and even check the colours
-in your image. Keep it flat and in the same plane as the plant.
+The **AstroBotany Spectrum** is a small printed sticker that does **two jobs at once**:
+
+- **Scale** — it's a known physical size, so software can convert pixels into real
+  centimetres.
+- **Colour** — it carries reference colour chips, so software can colour-correct your
+  photo (so a leaf looks the same shade whether you shot it at noon or under a lamp).
+
+Because it calibrates *both* size and colour, we call it an **AstroCalibration marker**.
+Put one in the corner of every photo, keep it **flat** (mount it on card or tile) and
+in the **same plane** as the plant. Tools like [PlantCV](https://plantcv.org/) can find
+it automatically — which is exactly how the Stage III and Stage IV measurement protocols
+turn your photos into data.
+
+!!! tip "Get your stickers"
+    AstroBotany calibration (AstroCalibration) stickers are available from
+    **[Sticker Mule → stickermule.com/drb2025](https://www.stickermule.com/drb2025)**.
 
 ## Tools that "read" your photos
 
 You don't measure by hand — these free tools do it for you:
 
+- **[PlantCV](https://plantcv.org/)** — plant-specific computer vision. It can detect the
+  AstroCalibration marker, colour-correct the image, and measure your plant. See the
+  step-by-step protocols:
+    - [Green Area Index with PlantCV](../stage-iii-growth-of-microgreens-in-terrestrial-environments/green-area-index-with-plantcv.md) (Stage III)
+    - [Root System Architecture with PlantCV](../research-stage-iv-microgreen-development-and-gravitropic-response/root-system-architecture-with-plantcv.md) (Stage IV)
 - **[ImageJ / Fiji](https://imagej.net/software/fiji/)** — the classic scientific
   image-measuring tool.
-- **[PlantCV](https://plantcv.readthedocs.io/en/stable/)** — plant-specific computer
-  vision.
 - **SOAPP** — a student-friendly app that works with the Spectrum sticker.
 - **[Easy Leaf Area](https://github.com/heaslon/Easy-Leaf-Area)** — measures leaf area
   from a photo (used in Stage III).
