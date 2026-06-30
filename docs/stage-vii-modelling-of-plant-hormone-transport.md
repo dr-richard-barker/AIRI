@@ -1,12 +1,26 @@
 # Stage VII: Computational modelling of plant hormone transport.
 
-!!! warning "The SimuPlant tool referenced here is currently offline"
-    This advanced stage was built around **SimuPlant**, whose website (`simuplant.org`)
-    is no longer available, so its download and manual links have been disabled below.
-    The biology still stands — see the
-    [research paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4001398/). For a
-    hands-on, classroom-ready alternative, measure real roots with
-    [Root System Architecture with PlantCV](research-stage-iv-microgreen-development-and-gravitropic-response/root-system-architecture-with-plantcv.md).
+!!! success "▶️ Try the Virtual Root — our open, interactive rebuild of SimuPlant"
+    The original **SimuPlant** desktop tool went offline, so we **rebuilt its core as a
+    free, browser-based simulator**. Move the sliders to watch auxin self-organise into a
+    maximum at the root tip, and toggle **gravitropism** to see auxin redistribute to the
+    lower side — the first step of root bending.
+
+    **[🌱 Open the Virtual Root simulator →](https://dr-richard-barker.github.io/virtual-root/)**
+    &nbsp;·&nbsp; [source code & model spec](https://github.com/dr-richard-barker/virtual-root)
+
+## The Virtual Root simulator
+
+<iframe src="https://dr-richard-barker.github.io/virtual-root/" width="100%" height="640"
+        style="border:1px solid #ccc; border-radius:8px" loading="lazy"
+        title="Virtual Root — interactive auxin transport simulator"></iframe>
+
+This is a two-compartment (cell + cell-wall) model of polar auxin transport with **PIN**
+efflux and **AUX1** influx carriers, after [Grieneisen et al. 2007](https://www.nature.com/articles/nature06215)
+and [Band et al. 2014](https://academic.oup.com/plcell/article/26/3/862/6099879). It
+reproduces the auxin maximum at the **quiescent centre**. See the
+[repository](https://github.com/dr-richard-barker/virtual-root) for the equations,
+parameters, and an honest list of its current limitations.
 
 ### Root Tissue and Gravity Perception
 
