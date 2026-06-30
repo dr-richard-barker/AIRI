@@ -4,7 +4,7 @@ description: Gravity and mechanical sensing in plants
 
 # Gravity and mechanical sensing in plants
 
-{% embed url="https://youtu.be/YIqCwYKDBqA" %}
+▶️ [Watch the video](https://youtu.be/YIqCwYKDBqA)
 
 **Above:** Time-lapse photography showing _Arabidopsis_ seedling responding to 90 degrees rotation.
 

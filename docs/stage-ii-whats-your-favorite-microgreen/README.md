@@ -16,8 +16,8 @@ By sharing your favourite microgreen and why it tickles your taste buds, you'll 
 
 To fuel your exploration, we've built a user-friendly USDA microgreen data app bursting with information on nutrition and yield for different varieties.
 
-{% embed url="https://youtu.be/sULYrcvVZh0" %}
+▶️ [Watch the introduction video](https://youtu.be/sULYrcvVZh0)
 
 Together, we can unlock the secrets of these tiny powerhouses and illuminate the path forward for space farming!
 
-{% embed url="https://five.epicollect.net/project/your-favorite-microgreen-is" %}
+📲 [Add your data: 'Your Favourite Microgreen' survey (Epicollect5)](https://five.epicollect.net/project/your-favorite-microgreen-is)
