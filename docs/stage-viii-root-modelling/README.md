@@ -54,7 +54,7 @@ Building a System Biology Modelling Class with Software and Concepts The sources
 
 ## CRootBox, is root modelling made easy <a href="#h.p_vjxdppmveu1k_l" id="h.p_vjxdppmveu1k_l"></a>
 
-<figure><img src="../gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (19).webp" alt=""><figcaption></figcaption></figure>
 
 Find out more by reading this paper:&#x20;
 

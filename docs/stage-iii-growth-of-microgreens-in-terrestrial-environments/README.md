@@ -59,9 +59,9 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 * Mist soil daily in order to keep it damp.
 * Measure the light intensity above your plant canopy. An easy way to do this is download the “Google Science Journal Application ''. This tool allows you to use your smart device's camera to measure the light intensity. Try to get the device right in the center of the tray. You can even create a map to show the light distribution over your entire canopy.
 
-<figure><img src="../gitbook/assets/image (8).png" alt="" width="375"><figcaption><p>(A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water.</p></figcaption></figure>
+<figure><img src="../gitbook/assets/image (8).webp" alt="" width="375"><figcaption><p>(A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water.</p></figcaption></figure>
 
-<figure><img src="../gitbook/assets/image (7).png" alt="" width="375"><figcaption><p>(B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna.</p></figcaption></figure>
+<figure><img src="../gitbook/assets/image (7).webp" alt="" width="375"><figcaption><p>(B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna.</p></figcaption></figure>
 
 **Figure 12:** (A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water. (B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna. This system, while basic, provides valuable data regarding biomass and growth rates for microgreen species.
 

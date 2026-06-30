@@ -6,7 +6,7 @@ Future space missions, as well as extended human space habitation, are criticall
 
 The cultivation of edible produce through the integration of plant-based bioregenerative life support systems provides viable solutions to challenges associated with crew health as well as minimizing the costs associated with resupplying. Growing plants throughout space missions has demonstrated its potential to become a source of fresh produce for space crews, while also contributing to gas and water recycling. In addition, the cultivation of plants on the ISS has shown to mitigate psychological stresses and depression associated with long-duration space habitation.
 
-<figure><img src="../gitbook/assets/image (3) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (3) (1) (1).webp" alt="" width="375"><figcaption></figcaption></figure>
 
 **Figure 2:** Astronauts eat plants on the ISS. They look really happy! Source: Gioia Massa Growing beyond Earth presentation 2020. NASA and Fairchild Botanical Gardens.
 
@@ -40,7 +40,7 @@ _**We often get asked: How does gravity affect plant development and growth in s
 
 Microgravity affects root growth patterns as well as various elements in plant biology. Not only does gravity affect how roots and stems grow, but it also affects essential biological processes impacting how the plant develops. One of the processes affected is plant gas exchange and mixing. Convection cells, where warmer air rises and cooler air falls, do not occur in microgravity environments. This reduces the amount of air circulation that occurs, which can cause gas accumulation in cells. As plants give off CO2, it stays close to the plant, displacing O2 and causing hypoxic zones near the plant's surface. This restricted O2 supply can particularly affect areas with high metabolic rates. Areas of plants with high metabolic and respiration rates, such as root tips, are then at risk. This could potentially negatively impact crop yields and the nutritional density of plants grown in microgravity.
 
-<figure><img src="../gitbook/assets/image (9) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (9) (1).webp" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 

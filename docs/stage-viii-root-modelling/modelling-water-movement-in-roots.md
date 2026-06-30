@@ -20,7 +20,7 @@ MECHA is an explicit cross-section model of the root hydraulic anatomy which con
 
 The model computes horizontal water flow at the level of individual cells, quantifies the contribution of water composite pathways, and predicts root radial permeability (kr), using detailed anatomical descriptions and experimental data on the permeability of cell walls (kw), membranes (Lp) and the conductance of individual plasmodesmata (KPD).
 
-<figure><img src="../gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (27).webp" alt=""><figcaption></figcaption></figure>
 
 [https://mecharoot.github.io/](https://mecharoot.github.io/)
 

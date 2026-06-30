@@ -17,7 +17,7 @@ plants beyond Earth.** Grow microgreens, measure how their roots respond to grav
 collect real data on your phone, and share it with student scientists around the world.
 
 <figure markdown="span">
-  ![Students, plants, and space themes blended together](gitbook/assets/Astrobotany_education_v2.png){ width="640" }
+  ![Students, plants, and space themes blended together](gitbook/assets/Astrobotany_education_v2.webp){ width="640" }
   <figcaption>Astrobotany blends biology, data science, art, and space exploration.</figcaption>
 </figure>
 

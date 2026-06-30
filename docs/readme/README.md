@@ -8,7 +8,7 @@ description: AstroBotany Educational Ethos, tools and techniques
 
 **Program I: Microgreens in Microgravity**
 
-<figure><img src="../gitbook/assets/image (9).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (9).webp" alt="" width="188"><figcaption></figcaption></figure>
 
 **Research Guide**
 
@@ -36,7 +36,7 @@ Our goal is to empower citizen scientists to develop novel urban agricultural in
 
 
 
-<figure><img src="../gitbook/assets/Astrobotany_education_v2.png" alt=""><figcaption><p>Having fun with AI is part of the course. </p></figcaption></figure>
+<figure><img src="../gitbook/assets/Astrobotany_education_v2.webp" alt=""><figcaption><p>Having fun with AI is part of the course. </p></figcaption></figure>
 
 **Figure 1:** Education is often considered to be a pyramid scheme, but with an open framework and the embracement of the role of the arts in science communication we can build a more inclusive research community.
 
@@ -50,7 +50,7 @@ Help us find out what the world's favorite microgreen is. Do you use data to inf
 
 
 
-<figure><img src="../gitbook/assets/image (16).png" alt=""><figcaption><p><a href="https://gilroy-qlik.botany.wisc.edu/a/single/?appid=a612204d-8f95-4c3a-a651-1d7a8ef89af3&#x26;opt=currsel,ctxmenu&#x26;sheet=cf33d0fc-8704-4e57-94dc-d25a7c8d2b0a&#x26;theme=NASA-theme">Link to interactive version.</a></p></figcaption></figure>
+<figure><img src="../gitbook/assets/image (16).webp" alt=""><figcaption><p><a href="https://gilroy-qlik.botany.wisc.edu/a/single/?appid=a612204d-8f95-4c3a-a651-1d7a8ef89af3&#x26;opt=currsel,ctxmenu&#x26;sheet=cf33d0fc-8704-4e57-94dc-d25a7c8d2b0a&#x26;theme=NASA-theme">Link to interactive version.</a></p></figcaption></figure>
 
 ### Program Stage III Summary: **Growth of Microgreens in Terrestrial Environments** <a href="#d33iimqtnpj5" id="d33iimqtnpj5"></a>
 
@@ -80,7 +80,7 @@ One of the greatest tools a researcher has is the strength to ask a well-structu
 
 <figure><img src="../gitbook/assets/image (4).png" alt="" width="495"><figcaption><p><strong>(A)</strong> Cell cultures can be grown from any plant and plants can be generated from cell cultures</p></figcaption></figure>
 
-<figure><img src="../gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p><strong>(B)</strong> The cell cultures can acquire a range of characteristics depending on the genome they have, the organ they came from and the stimuli they receive.</p></figcaption></figure>
+<figure><img src="../gitbook/assets/image (3) (1).webp" alt="" width="375"><figcaption><p><strong>(B)</strong> The cell cultures can acquire a range of characteristics depending on the genome they have, the organ they came from and the stimuli they receive.</p></figcaption></figure>
 
 **Figure 7: (A)** Cell cultures can be grown from any plant and plants can be generated from cell cultures. **(B)** The cell cultures can acquire a range of characteristics depending on the genome they have, the organ they came from and the stimuli they receive.
 
