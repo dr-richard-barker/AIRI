@@ -1,0 +1,14 @@
+# MkDocs build output (generated; deployed by GitHub Actions, never committed)
+site/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

@@ -10,7 +10,7 @@ Ever wonder how growth and the environment locally affect the water potential of
 
 [https://nrobbins.shinyapps.io/20171008\_hydropatterning\_app/](https://nrobbins.shinyapps.io/20171008\_hydropatterning\_app/)
 
-<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
 

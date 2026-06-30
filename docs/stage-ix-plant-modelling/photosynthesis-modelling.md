@@ -4,7 +4,7 @@
 
 {% embed url="https://biocycle.atmos.colostate.edu/shiny/photosynthesis/" %}
 
-<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 #### MODEL DESCRIPTION
 

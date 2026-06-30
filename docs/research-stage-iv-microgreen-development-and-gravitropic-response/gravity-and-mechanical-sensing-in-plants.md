@@ -26,7 +26,7 @@ _Arabidopsis_ plants live in a range of different natural environments around th
 
 
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p><a href="https://kbroman.org/qtlcharts/example/iplotCurves.html">https://kbroman.org/qtlcharts/example/iplotCurves.html</a></p></figcaption></figure>
+<figure><img src="../gitbook/assets/image.png" alt=""><figcaption><p><a href="https://kbroman.org/qtlcharts/example/iplotCurves.html">https://kbroman.org/qtlcharts/example/iplotCurves.html</a></p></figcaption></figure>
 
 **Above:** Link to  Analysis of root reorientation kinetics after a 90 degree rotation reveals natural variation in the sensitivity of plants to gravity.
 
@@ -34,7 +34,7 @@ _Arabidopsis_ plants live in a range of different natural environments around th
 
 ### Genetically encoded gravity sensing loci <a href="#h.p_0_tle0lzaqzl_l" id="h.p_0_tle0lzaqzl_l"></a>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://kbroman.org/qtlcharts/example/iplotMScanone.html">https://kbroman.org/qtlcharts/example/iplotMScanone.html</a></p></figcaption></figure>
+<figure><img src="../gitbook/assets/image (1).png" alt=""><figcaption><p><a href="https://kbroman.org/qtlcharts/example/iplotMScanone.html">https://kbroman.org/qtlcharts/example/iplotMScanone.html</a></p></figcaption></figure>
 
 **Above:** Link to Quantitative trait locus analysis of the _Arabidopsis_ genome identifies regions that contain genes involved in gravity perception and response. The red and blue heatmap shows regions that are positively or negatively correlated with the speed of reorientation. _Arabidopsis_ has 5 chromosomes. The higher the LOD score in that region of a chromosome, the higher the probably that genes found there are involved in the trait being measured.
 

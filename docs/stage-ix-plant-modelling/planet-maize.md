@@ -10,7 +10,7 @@ The focus of PlaNet-Maize is to investigate the effect of environmental and endo
 
 
 
-<figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 The code of this web app is open source and available here: Source code
 

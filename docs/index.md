@@ -1,122 +1,101 @@
 ---
-description: AstroBotany Educational Ethos, tools and techniques
+description: >-
+  Hands-on astrobotany for the classroom. Grow plants in space-like conditions,
+  collect real data, and join an international community of student scientists.
+hide:
+  - navigation
 ---
 
-# AIRI: Astrobotany International Research Initiative Program Summary and cover page
+# 🌱🚀 Grow Plants in Space
 
-**AIRI:** Astrobotany International Research Initiative
+## The Astrobotany International Research Initiative (AIRI)
 
-**Program I: Microgreens in Microgravity**
+How do plants grow when there is no "up"? Astronauts need plants for food, oxygen,
+and a little piece of home &mdash; but space is a strange place to be a seed. **AIRI is a
+free, hands-on program that lets your classroom join the real science of growing
+plants beyond Earth.** Grow microgreens, measure how their roots respond to gravity,
+collect real data on your phone, and share it with student scientists around the world.
 
-<figure><img src=".gitbook/assets/image (9).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure markdown="span">
+  ![Students, plants, and space themes blended together](gitbook/assets/Astrobotany_education_v2.webp){ width="640" }
+  <figcaption>Astrobotany blends biology, data science, art, and space exploration.</figcaption>
+</figure>
 
-**Research Guide**
+!!! tip "New here? Start with the path that fits you."
 
-**Authors**
+<div class="grid cards" markdown>
 
-Gilbert Cauthorn, MSc, Sophia Griffith, Rachel Wang, and Dr. Richard Barker.
+-   :material-school:{ .lg .middle } __For Teachers__
 
-SKG Astrobotany Research and Education Program, Osaka, Japan
+    ---
 
-Gilroy Lab, University of Wisconsin Madison, USA
+    Project-based lessons mapped to **Next Generation Science Standards**, with
+    materials lists, low-cost setups, and data tools your students will love.
 
-**Reviewers**
+    [:octicons-arrow-right-24: Teacher's guide](for-teachers.md)
 
-Dr Christina Johnson, Lori Waters, MSc, Emily Helton, Joshua Revels
+-   :material-test-tube:{ .lg .middle } __For Students__
 
-UW-Madison, ARC, KSC, and the JSC Education Resource Center
+    ---
 
-### AstroBotany Educational Ethos, tools and techniques <a href="#mr1nbxnfln3u" id="mr1nbxnfln3u"></a>
+    Become a citizen scientist. Grow your own microgreens, run real experiments,
+    and add your data to a worldwide project.
 
-The goal of the AIRI program is to create a collaborative international environment in which students, educators, researchers, and citizen scientists are able to contribute to astrobotany research in future space missions. We aim to share methods and data openly to help students and researchers around the world learn from each other's experiences while using the AIRI project-based learning program. It doesn’t matter if you are a professor lecturing in higher education or an informal citizen scientist with a passion for plants or space. We believe in equity in education, so we’ve added tables showing how AIRI can help teachers create authentic project-based research experiences that achieve next-generation science standards.
+    [:octicons-arrow-right-24: Start at Stage I](stage-i-scientific-photography/README.md)
 
-The AIRI program aims to be holistic and inclusive of all people. We are brand agnostic but will recommend specific tools that have enabled successful experiments previously. For example, [Epicollect5](https://five.epicollect.net/) is a citizen science data harvesting tool where people around the world share data. There are other data-sharing mechanisms. However, this one has an open-source data application programming interface (API) that makes it quicker and easier to share data.
+-   :material-rocket-launch:{ .lg .middle } __For Researchers__
 
-Our goal is to empower citizen scientists to develop novel urban agricultural innovations as part of a new greener revolution on this planet and others. Equity lies at the roots of education.
+    ---
 
-## Documentation
+    Computational modelling, RNA-seq mining, and clinostat experiments for
+    advanced learners and citizen scientists who want to go deeper.
 
-This project's documentation is available as a website. You can find it at the following link:
+    [:octicons-arrow-right-24: Extension & research track](stage-vii-modelling-of-plant-hormone-transport.md)
 
-[AIRI Documentation](https://<your-github-username>.github.io/AIRI/)
+</div>
 
-### Running Locally
+## The AIRI journey
 
-To run the documentation site locally:
+The program is built as a series of **stages**. You don't have to do them all &mdash;
+start anywhere that fits your classroom and your budget. The first stages need little
+more than seeds, water, and a smartphone.
 
-1.  Install the required dependencies:
-    ```bash
-    pip install mkdocs-material mkdocs-literate-nav mkdocs-section-index
-    ```
-2.  Start the development server:
-    ```bash
-    mkdocs serve
-    ```
-3.  Open your browser and navigate to `http://127.0.0.1:8000/`.
+=== "🧑‍🏫 Classroom Track (start here)"
 
-<figure><img src=".gitbook/assets/Astrobotany_education_v2.png" alt=""><figcaption><p>Having fun with AI is part of the course. </p></figcaption></figure>
+    | Stage | What you'll do | You'll need |
+    |-------|----------------|-------------|
+    | **I — Scientific Photography** | Learn to photograph plants like a scientist so they can be measured and compared. | A camera or smartphone |
+    | **II — Favorite Microgreen** | Pick a crop and vote with the world. Explore real nutrition and yield data. | Internet access |
+    | **III — Growing Microgreens** | Grow microgreens in soil, photograph them daily, and measure growth. | Seeds, trays, a phone camera |
+    | **IV — Gravity & Roots** | Grow roots on agar, then rotate gravity 90° and watch them respond. | Seeds, agar or filter paper |
 
-**Figure 1:** Education is often considered to be a pyramid scheme, but with an open framework and the embracement of the role of the arts in science communication we can build a more inclusive research community.
+=== "🔬 Extension & Research Track"
 
-### "Kids in Data" Space Invaders Game: A Fun Step Towards Data Literacy <a href="#msamk3lsrt9k" id="msamk3lsrt9k"></a>
+    | Stage | What you'll do |
+    |-------|----------------|
+    | **V — Auxin & Plant Cloning** | Explore plant hormones and make plant clones from cell cultures. |
+    | **VI — Micro-Gravi-tropism Assays** | Quantify how roots and shoots reorient to gravity. |
+    | **VII — Hormone Transport Modelling** | Simulate how auxin moves between plant cells. |
+    | **VIII — Root Modelling** | Model water movement and hydropatterning in roots. |
+    | **IX — Plant Modelling** | Explore whole-plant and photosynthesis models. |
+    | **X — Mining RNA-seq** | Use real spaceflight gene-expression data to model metabolism. |
+    | **XI — Membrane Interactome** | Investigate the proteins plants use to sense their environment. |
 
-Participants are encouraged to discuss online data sharing and the creation of online avatars. Researchers need to be aware of their digital footprints and the associated risks and opportunities. These concepts are approached through partaking in a Space Invaders computer game league where the results from previous participants can be viewed using interactive relational databases provided by Qlik and the Kids in Data literacy program.
+[See the full program overview :octicons-arrow-right-24:](program-overview.md){ .md-button }
+[Browse all stages :octicons-arrow-right-24:](airi-astrobotany-introduction/README.md){ .md-button .md-button--primary }
 
-### What's Your Favorite Microgreen? <a href="#aiwkhr4etifn" id="aiwkhr4etifn"></a>
+## Why this is real science
 
-Help us find out what the world's favorite microgreen is. Do you use data to inform your decision? Everyone is different, so let's explore the collective answer and the reasons behind it. Does your choice relate to your age, location, or something else? To share your insights with the Astrobotany Research Community, please participate in our platform to share your thoughts on microgreens with the Astrobotany research community. Your input is crucial! The key question we aim to answer is related to your preference: does it depend on age, location, or other factors? Do you rely on data to make your choice or is it just your taste buds or gut that makes the decision? Help us use nutritional and yield data while we discover the world's most popular microgreen we also created a [USDA microgreen meta-data application](https://www.google.com/url?q=https%3A%2F%2Fastrobiology.botany.wisc.edu%2Feducation-outreach%2Fmicrogreendiversity\&sa=D\&sntz=1\&usg=AOvVaw2e4sc\_CKnrmUUEjB9puXDC) to help provide you with experimental data as you select your favorite microgreen variety.
+AIRI follows an **open, FAIR** approach &mdash; the data you collect is *Findable, Accessible,
+Interoperable, and Reusable*. We're brand-agnostic but recommend proven free tools like
+[Epicollect5](https://five.epicollect.net/) for sharing data globally. Everything on this
+site is released to the public domain ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)),
+so you are free to use, remix, and translate it for your own classroom.
 
+> *Equity lies at the roots of education.* Whether you're a university professor or a
+> curious kid with a windowsill, there's a place for you in AIRI.
 
+---
 
-<figure><img src=".gitbook/assets/image (16).png" alt=""><figcaption><p><a href="https://gilroy-qlik.botany.wisc.edu/a/single/?appid=a612204d-8f95-4c3a-a651-1d7a8ef89af3&#x26;opt=currsel,ctxmenu&#x26;sheet=cf33d0fc-8704-4e57-94dc-d25a7c8d2b0a&#x26;theme=NASA-theme">Link to interactive version.</a></p></figcaption></figure>
-
-### Program Stage III Summary: **Growth of Microgreens in Terrestrial Environments** <a href="#d33iimqtnpj5" id="d33iimqtnpj5"></a>
-
-In this stage, participants will grow microgreens in the soil in order to collect quantitative and qualitative data on growth patterns. Participants may choose to extend this investigation by comparing selected crops grown hydroponically using a Hamama kit or their own DIY protocol. There are multiple variations possible, such as growth in varied nutrient media, as well as variations in light quality or quantity. It is important to isolate 1 or 2 factors of choice for analysis and record your methods in your science journal to ensure they are reproducible. We recommend using your smartphone to save the primary data, such as photos or numbers using this [EpiCollect5 AIRI MicroGreen Easy Leaf Area](https://five.epicollect.net/project/airi-microgreen-easy-leaf-area) to help you organize your data collection so it can be shared with other researchers. The introduction to the image analysis component requires the researcher to have access to a digital camera or smart device. There are many software tools that analyze images available on laptops or desktop computers. First, we’ll introduce the *Easy Leaf Area* software, which can be accessed on Android phones or PCs running Windows, iOS, or Linux. Visit the software's [GitHub](https://github.com/heaslon/Easy-Leaf-Area) page to download.
-
-
-
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Figure 5:** Example analysis showing photos taken each day for 6 days starting just before sample harvest and consumption began. Photography was also performed of the subsequent nutritional enhancements of mealtime (see Twitter and Instagram for microgreen-enhanced mealtime). Source: Dr. Richard Barker, unpublished citizen science demo data.
-
-### **Microgreen Development and Gravitropic Response** <a href="#f1idriw9fonq" id="f1idriw9fonq"></a>
-
-Software options for this project can help you collect important meta-data, and primary imaging data, and optimize your experimental parameters to ensure your data is comparable and shareable with the research community. Quantitative data will be collected through root mapping using Fiji, SmartRoot, and AstroDart, along with Urban microgreen EpiCollect5.
-
-This stage will focus on growing microgreens on plant-based agar or wet filter paper to observe and measure root growth kinetics. After recording initial root growth at three-time points (e.g., days 3, 4, and 5 post-germination), the gravity vector will be rotated 90 degrees to observe root adaptation to this stimulus.
-
-<figure><img src=".gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-**Figure 6: (A)** Root length measurements. **(B)** Hypocotyl measurements. **(C)** Direction of root or shoot growth for 4 ecotypes of _Arabidopsis thaliana (Col-0, WS, Ler, Cvi)_ displayed as nightingale plots with a bin size of 10. **(D)** Scatter plot showing the gravitropic reorientation, error bars show the standard error. **(E)** ANOVA statistics are used to show differences based on variety and time points. (F) Example photography of Mizuna (or other microgreens) at 3 developmental stages that can be used to generate data like these. Source: Dr. Richard Barker, unpublished citizen science demo data.
-
-### Turning Microgreens into Stem Cell Cultures and Taking Cuttings or Making Plant Clones <a href="#e63implf3dp0" id="e63implf3dp0"></a>
-
-One of the greatest tools a researcher has is the strength to ask a well-structured question, [ResearchGate](https://www.researchgate.net/) is an excellent social media platform for this. This is real research so remember to write down your thoughts, and record the volumes you use and the material you need for your experiments. We recommend using the text document or spreadsheet “science journal” as a digital notebook, as it allows you to quickly link notes and sensor measurements to photos and timestamps. When laboratory protocols become more advanced, such as investigations into genes and genomes, the ability to save, store, and visualize DNA sequences becomes essential. We recommend the [Benchling software](https://www.benchling.com/) as it provides these slightly more advanced molecular biology features and it is nice to keep all protocols in one place. This is an example protocol from a scientist who turns Arabidopsis seedlings into stem cell cultures. Germinate your seeds on a medium that contains the correct concentration of auxin (2,4-D). Paul _et al._ (2002) created a callus induction medium using the following recipe (Sterile conditions are essential for this to work). You can adapt this protocol for microgreen species.
-
-<figure><img src=".gitbook/assets/image (4).png" alt="" width="495"><figcaption><p><strong>(A)</strong> Cell cultures can be grown from any plant and plants can be generated from cell cultures</p></figcaption></figure>
-
-<figure><img src=".gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption><p><strong>(B)</strong> The cell cultures can acquire a range of characteristics depending on the genome they have, the organ they came from and the stimuli they receive.</p></figcaption></figure>
-
-**Figure 7: (A)** Cell cultures can be grown from any plant and plants can be generated from cell cultures. **(B)** The cell cultures can acquire a range of characteristics depending on the genome they have, the organ they came from and the stimuli they receive.
-
-### **Modeling auxin transport and movement** <a href="#e63implf3dp0" id="e63implf3dp0"></a>
-
-Understanding how auxin affects plants at a cellular level is difficult and requires computers to model and run simulations. These computer programs are designed to use mathematical models to describe the physical and mechanical characteristics of how cells function. These models can be used to investigate how chemicals might move across membranes to form concentration gradients. This movement is often coordinated by special proteins that reside in cell membranes and are responsible for transporting important signaling hormones. Some transporters are influenced by environmental factors such as light and gravity. The SimuPlant modeling software allows you to explore this fundamental biology at a cellular and molecular scale. Read a [summary of the model here](https://www.ebi.ac.uk/biomodels/content/model-of-the-month?year=2013\&month=01) and download the [SimuPlant](https://www.simuplant.org/) modeling software.
-
-<figure><img src=".gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure>
-
-**Figure 8: (A)** Cellular model showing the subcellular location of auxin transport and signaling components. **(B)** Root tip model illustrating auxin levels predicted by the reverse fountain model of auxin movement in the root and lateral apices. Here’s a link to a [video of the model in action](https://www.youtube.com/watch?v=emd6tUy1pBo\&ab\_channel=RichardBarker).
-
-### **Phototropic Response of Microgreens Grown in Simulated Microgravity** <a href="#q5yflw39kqlv" id="q5yflw39kqlv"></a>
-
-* The most advanced stage of AIRI focuses on the effects that simulated microgravity has on the development of microgreens. This will be achieved through the utilization of the CoSE Gravity Chamber (or any DIY 2D slow-rotating clinostat you may have).
-* More information on 3D clinostats can be found at CoSEcloud.com.
-* More information on how to build your own DIY 2D clinostat found at[ Dr. Andrea Henle's SpaceBiology website.](https://spacebiology.carthage.edu/grade-6-12-educators).
-* Qualitative and quantitative data will be collected and analyzed through the utilization of *Easy Leaf Area*, *RootNav 2.0*, *SmartRoot*, and *AstroDart* software.
-
-<figure><img src=".gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>Source: Collaborative Science Environment for the 3D clinostat rendering and photo of the germinating seeds inside it.</p></figcaption></figure>
-
-**Figure 9:** Special 3D clinostats and random positioning machines can create simulated microgravity. This CoSE Scispinner max can also produce a directional phototropic stimulus.&#x20;
+*A program of the SKG Astrobotany Research and Education Program (Osaka, Japan) and the
+Gilroy Lab, University of Wisconsin&ndash;Madison.*

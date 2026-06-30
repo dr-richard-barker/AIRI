@@ -1,3 +1,6 @@
-mkdocs-material
-mkdocs-literate-nav
-mkdocs-section-index
+# AIRI documentation site dependencies.
+# Pinned for reproducible builds (a FAIR best practice). Bump deliberately.
+mkdocs-material==9.7.6
+mkdocs-literate-nav==0.6.3
+mkdocs-section-index==0.3.12
+mkdocs-glightbox==0.5.2

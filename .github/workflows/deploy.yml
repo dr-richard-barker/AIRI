@@ -1,29 +1,68 @@
-name: ci
+name: Deploy MkDocs site to GitHub Pages
+
+# IMPORTANT: For this workflow to publish, set
+#   Settings -> Pages -> Build and deployment -> Source = "GitHub Actions"
+# This replaces the older "deploy from a branch" (gh-pages) method and the
+# conflicting Jekyll workflow that previously broke the site.
+
 on:
   push:
-    branches:
-      - main
-      - master
+    branches: [main]
+  workflow_dispatch:
+
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; don't cancel an in-progress run.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Configure Git Credentials
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-      - uses: actions/setup-python@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - run: echo "cache_id=$(date --utc +%V)" >> $GITHUB_ENV
-      - uses: actions/cache@v4
+          python-version: '3.x'
+
+      - name: Cache MkDocs Material assets
+        uses: actions/cache@v4
         with:
-          key: mkdocs-material-${{ env.cache_id }}
+          key: mkdocs-material-${{ github.sha }}
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: pip install -r requirements.txt
-      - run: DISABLE_MKDOCS_2_WARNING=true mkdocs gh-deploy --force
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build site
+        run: mkdocs build --clean
+        env:
+          DISABLE_MKDOCS_2_WARNING: "true"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
