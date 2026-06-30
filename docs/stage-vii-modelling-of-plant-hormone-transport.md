@@ -1,5 +1,13 @@
 # Stage VII: Computational modelling of plant hormone transport.
 
+!!! warning "The SimuPlant tool referenced here is currently offline"
+    This advanced stage was built around **SimuPlant**, whose website (`simuplant.org`)
+    is no longer available, so its download and manual links have been disabled below.
+    The biology still stands — see the
+    [research paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4001398/). For a
+    hands-on, classroom-ready alternative, measure real roots with
+    [Root System Architecture with PlantCV](research-stage-iv-microgreen-development-and-gravitropic-response/root-system-architecture-with-plantcv.md).
+
 ### Root Tissue and Gravity Perception
 
 ### Introduction
@@ -51,7 +59,7 @@ The SimuPlant hormone modeling tool is available for both MaxOS and Windows OS u
 
 To get started with SimuPlant, follow these steps:
 
-1. **Visit the Official Website:** [SimuPlant Download Page](https://www.simuplant.org/PlantHormoneModelingTool)
+1. **Visit the Official Website:** SimuPlant Download Page *(offline — site no longer available)*
 2. **Select Your Operating System:** Choose either the MacOS or Windows OS option to ensure compatibility with your device.
 3. **Download the Installer:** Click on the download button to get the installer file for SimuPlant.
 
@@ -69,12 +77,12 @@ After downloading the installer, follow these steps to install SimuPlant on your
 
 For more information on how to use SimuPlant and take full advantage of its features, refer to the user manual and tutorials available on the official website.
 
-[SimuPlant User Manual](https://www.simuplant.org/UserManual)\
-[SimuPlant Tutorials](https://www.simuplant.org/Tutorials)
+SimuPlant User Manual *(offline)*\
+SimuPlant Tutorials *(offline)*
 
 ***
 
-By following these instructions, you will be able to download, install, and begin using the SimuPlant hormone modelling tool on your MacOS or Windows OS computer. If you encounter any issues during the process, consult the troubleshooting section in the user manual or reach out to the support team via the contact information provided on the SimuPlant website. Happy modeling\![ Link to SimuPlant modelling tool](https://www.simuplant.org/).
+By following these instructions, you will be able to download, install, and begin using the SimuPlant hormone modelling tool on your MacOS or Windows OS computer. If you encounter any issues during the process, consult the troubleshooting section in the user manual or reach out to the support team via the contact information provided on the SimuPlant website. Happy modeling! *(Note: the SimuPlant website is no longer online.)*
 
 
 
