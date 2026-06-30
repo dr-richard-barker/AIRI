@@ -13,7 +13,7 @@ CplantBox:&#x20;
 
 ## Example Simulation videos available in Youtube Channel&#x20;
 
-{% embed url="https://www.youtube.com/channel/UCPK-pFfpK94jiamgwHxX32Q" %}
+▶️ [Visit the YouTube channel](https://www.youtube.com/channel/UCPK-pFfpK94jiamgwHxX32Q)
 
 Change the parameters and see how the morphology changes
 
@@ -25,5 +25,5 @@ More information in this github
 
 
 
-{% embed url="https://cplantbox.com/" %}
+🔗 [CPlantBox whole-plant model](https://cplantbox.com/)
 

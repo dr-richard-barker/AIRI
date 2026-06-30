@@ -100,9 +100,9 @@ gravitropic response, now expressed as a number you can graph and share.
 
 ## Going deeper
 
-- PlantCV morphology workflow: [Morphology tutorial](https://docs.plantcv.org/en/stable/morphology_tutorial/)
+- PlantCV morphology workflow: [PlantCV tutorials](https://plantcv.org/tutorials)
 - Segment length: [segment_path_length](https://docs.plantcv.org/en/stable/segment_pathlength/)
-- Skeletonize: [morphology.skeletonize](https://docs.plantcv.org/en/stable/morphology_skeletonize/)
+- Skeletonize: [morphology.skeletonize](https://docs.plantcv.org/en/stable/skeletonize/)
 - Colour correction: [auto_correct_color](https://docs.plantcv.org/en/stable/transform_auto_correct_color/)
 
 *Function arguments and output names can change between PlantCV versions — check the

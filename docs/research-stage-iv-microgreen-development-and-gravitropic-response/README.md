@@ -179,7 +179,7 @@ Note: Best for Window’s OS and a single time point
 * If you don’t have a window’s computer you can use one of these free cloud computer.
 * [https://www.onworks.net/software/app-rootnav](https://www.onworks.net/software/app-rootnav)&#x20;
 
-{% embed url="https://www.onworks.net/software/app-rootnav" %}
+🖥️ [Run RootNav online (OnWorks)](https://www.onworks.net/software/app-rootnav)
 
 ### **AstroDart data visualization**
 
@@ -256,4 +256,4 @@ DOI[dx.doi.org/10.17504/protocols.io.h7bb9in](https://dx.doi.org/10.17504/protoc
 
 ![PRIMAL: Pipeline of Root Image analysis using MAchine Learning](https://content.protocols.io/j4idmie.jpg)![](<../gitbook/assets/image (20).png>)
 
-{% embed url="https://www.protocols.io/view/primal-pipeline-of-root-image-analysis-using-machi-n92ldwq7v5br/v1" %}
+🧪 [PRIMAL: root image-analysis pipeline (protocols.io)](https://www.protocols.io/view/primal-pipeline-of-root-image-analysis-using-machi-n92ldwq7v5br/v1)

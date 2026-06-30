@@ -189,7 +189,7 @@ The group lead should go to Google Forms and create a brief survey (Using Google
 
 **2. General Software Skills:** Image editing software: Train scientists on basic image editing skills in software like Google Photos, Adobe Lightroom or Photoshop or preferably open sources software like Gimp or custom codes to adjust brightness, contrast, and color without compromising data integrity. Try Other Image Analysis Software: There are many different software tools designed for scientific image analysis, such as measuring distances, areas, and other parameters from captured images; so have a play and see what works best for you!
 
-**3. Ethics and Data Sharing:** Image ownership and authorship: Discuss ethical considerations around image ownership and proper attribution in scientific publications. Data sharing practices: Train scientists on best practices for sharing and archiving raw and processed image data to ensure transparency and reproducibility. NASA Transform to Open Science (TOPS): More training and awards from NASA can be achieved by completing the free online TOPS training course. [https://nasa.github.io/Transform-to-Open-Science/](https://nasa.github.io/Transform-to-Open-Science/)
+**3. Ethics and Data Sharing:** Image ownership and authorship: Discuss ethical considerations around image ownership and proper attribution in scientific publications. Data sharing practices: Train scientists on best practices for sharing and archiving raw and processed image data to ensure transparency and reproducibility. NASA Transform to Open Science (TOPS): More training and awards from NASA can be achieved by completing the free online TOPS training course. [NASA Transform to Open Science (TOPS)](https://science.nasa.gov/open-science/transform-to-open-science/)
 
 **4. Advanced Techniques for Technological Integration:** **A: Focus stacking:** For capturing highly detailed macro images of seeds, train scientists on focus stacking techniques to overcome depth-of-field limitations.
 
@@ -211,7 +211,7 @@ Remember, the specific needs of your research team and the complexity of the bio
 
 ***
 
-More information on preparing Arabidopsis and microgreens as samples for photography using spaceflight tested methodology can be found at [https://astrobotany.com/standard-preparation-arabidopsis-thaliana-spaceflight-experiment/](https://astrobotany.com/standard-preparation-arabidopsis-thaliana-spaceflight-experiment/)
+More information on preparing Arabidopsis and microgreens as samples for photography using spaceflight-tested methodology was published on astrobotany.com (the standard-preparation page is currently unavailable).
 
 Procedure 6.0: Prepare “space media” gel agar plates per ASOP-0003: Making Space Media. Sterilize on-test A. thaliana seeds using ASOP-0001: Ethanol Seed Sterilization or ASOP-0002: Vapor Phase Seed Sterilization depending on assay requirements.
 

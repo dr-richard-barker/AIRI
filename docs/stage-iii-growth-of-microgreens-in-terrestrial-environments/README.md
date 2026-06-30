@@ -201,7 +201,7 @@ Alternatively, you could create your own datasharing treaure hunt using [uoVidiW
 
 [![](https://quovidi.github.io/assets/img/logo.png)](https://quovidi.github.io/)[QuoVidiWeb application for large scale treasure hunts](https://quovidi.github.io/)
 
-{% embed url="https://quovidi.github.io/" %}
+🔗 [Open the QuoVidi treasure-hunt web application](https://quovidi.github.io/)
 
 Find out more by reading their paper: doi: https://doi.org/10.1101/2020.06.30.177006
 

@@ -18,6 +18,7 @@
         * [Gravity and Mechanical Sensing in Plants](research-stage-iv-microgreen-development-and-gravitropic-response/gravity-and-mechanical-sensing-in-plants.md)
         * [Root System Architecture with PlantCV](research-stage-iv-microgreen-development-and-gravitropic-response/root-system-architecture-with-plantcv.md)
 * 🔬 Extension & Research Track
+    * [About this track (advanced)](extension-research-track.md)
     * [Stage V: Auxin and Plant Cloning](stage-v-auxin-and-plant-cloning.md)
     * [Stage VI: Micro-Gravi-tropism Assays](research-stage-vi-gravitropism-assays.md)
     * [Stage VII: Modelling of Plant Hormone Transport](stage-vii-modelling-of-plant-hormone-transport.md)
@@ -31,5 +32,4 @@
     * [Stage XI: Mining Membrane-based Interactome Database](stage-xi-mining-membrane-based-interactome-database.md)
 * Reference & Tools
     * [Introduction to Systems Biology](introduction-to-system-biology.md)
-    * [Other Useful Shiny Applications](other-useful-shiny-applications.md)
     * [Project Management](project_management/README.md)

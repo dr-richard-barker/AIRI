@@ -103,7 +103,7 @@ print(f"Green area = {green_cm2:.1f} cm^2 | Ground = {ground_cm2:.1f} cm^2 | GAI
 
 - PlantCV colour correction: [auto_correct_color](https://docs.plantcv.org/en/stable/transform_auto_correct_color/)
 - PlantCV size analysis: [analyze.size](https://docs.plantcv.org/en/stable/analyze_size/)
-- PlantCV thresholding & ROIs: [Threshold tools](https://docs.plantcv.org/en/stable/threshold_binary/)
+- PlantCV thresholding, ROIs & more: [PlantCV tutorials](https://plantcv.org/tutorials)
 
 *Exact function arguments and output names can change between PlantCV versions — check
 the docs above for the version you installed. The next stage applies the same calibrated
