@@ -5,8 +5,9 @@ homeschool, science club, or outreach program. Everything here is **free and
 public domain** &mdash; adapt it however your students learn best.
 
 !!! abstract "AIRI in one minute"
-    Students grow microgreens (fast-growing edible seedlings), measure how they
-    grow and how their roots respond to gravity, and share their data with a global
+    Students grow microgreens (fast-growing edible seedlings), photograph them with a
+    small **AstroCalibration sticker** in frame, and use free image-analysis software to
+    turn those photos into real measurements — then share their data with a global
     community of young scientists studying how plants might grow in space.
 
 ## Why astrobotany works in the classroom
@@ -34,6 +35,26 @@ V&ndash;XI)** suits advanced high-school, undergraduate, or citizen-science lear
 | 1&ndash;2 weeks and a windowsill | [Stage III: Growing Microgreens](stage-iii-growth-of-microgreens-in-terrestrial-environments/README.md) |
 | Agar/filter paper and a phone | [Stage IV: Gravity & Roots](research-stage-iv-microgreen-development-and-gravitropic-response/README.md) |
 
+## Your classroom superpower: image analysis with the AstroCalibration sticker
+
+The heart of AIRI is turning **photos of plants into real measurements**. A small printed
+**[AstroCalibration sticker](https://www.stickermule.com/drb2025)** (the AstroBotany
+Spectrum) placed in each photo gives free software a known size *and* colour to calibrate
+against — so an ordinary phone snapshot becomes scientific data. The classroom loop is the
+same in every stage:
+
+1. **🏷️ Add the sticker** to your growing tray or agar plate.
+2. **📷 Photograph** your plants the same way each time &mdash;
+   [Stage I: Scientific Photography](stage-i-scientific-photography/README.md).
+3. **📐 Measure** with free computer vision ([PlantCV](https://plantcv.org/)):
+    - [Green Area Index](stage-iii-growth-of-microgreens-in-terrestrial-environments/green-area-index-with-plantcv.md) &mdash; how fast the leafy canopy fills in.
+    - [Root System Architecture](research-stage-iv-microgreen-development-and-gravitropic-response/root-system-architecture-with-plantcv.md) &mdash; root length and the gravity response.
+4. **📲 Share** your numbers (e.g. via Epicollect5) so classes worldwide can compare.
+
+!!! tip "Get your stickers"
+    Order AstroCalibration stickers from
+    **[Sticker Mule → stickermule.com/drb2025](https://www.stickermule.com/drb2025)**.
+
 ## Standards alignment
 
 AIRI activities are mapped to the **Next Generation Science Standards (NGSS)**.
@@ -46,11 +67,14 @@ See the alignment tables to plug AIRI into your existing scheme of work:
 
 We are brand-agnostic, but these free tools have a proven classroom track record:
 
+- **[AstroCalibration sticker](https://www.stickermule.com/drb2025)** &mdash; the size +
+  colour reference that turns a photo into measurable, comparable data.
+- **[PlantCV](https://plantcv.org/)** &mdash; free computer vision that detects the
+  sticker and measures your plants (green area & roots).
 - **[Epicollect5](https://five.epicollect.net/)** &mdash; collect and share data from a
   phone; no account needed for students to contribute.
 - **[Easy Leaf Area](https://github.com/heaslon/Easy-Leaf-Area)** &mdash; measure leaf
   area from a photo (Windows, Android, iOS, Linux).
-- **Fiji / SmartRoot** &mdash; measure root growth from images (advanced stages).
 
 ## Good teaching practice with AIRI
 
@@ -58,7 +82,8 @@ We are brand-agnostic, but these free tools have a proven classroom track record
       methods, amounts, and timestamps &mdash; this is what makes the work reproducible.
 - [ ] Change **only one or two variables** per experiment (light, water, seed type).
 - [ ] Photograph samples at the **same time and distance** each day for comparable data.
-- [ ] Discuss **data ethics and digital footprints** (Stage I) before sharing online.
+- [ ] Always include the **AstroCalibration sticker** in frame so photos can be measured.
+- [ ] Discuss **data sharing and online safety** before students post results publicly.
 
 ## Safety notes
 
