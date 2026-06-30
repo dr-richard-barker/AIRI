@@ -29,7 +29,7 @@ V&ndash;XI)** suits advanced high-school, undergraduate, or citizen-science lear
 
 | If you have... | Try... |
 |----------------|--------|
-| One class period and computers | [Stage I: Data Literacy](stage-i-space-invaders-data-literacy/README.md) |
+| One class period and a camera | [Stage I: Scientific Photography](stage-i-scientific-photography/README.md) |
 | Internet and a discussion | [Stage II: Favorite Microgreen](stage-ii-whats-your-favorite-microgreen/README.md) |
 | 1&ndash;2 weeks and a windowsill | [Stage III: Growing Microgreens](stage-iii-growth-of-microgreens-in-terrestrial-environments/README.md) |
 | Agar/filter paper and a phone | [Stage IV: Gravity & Roots](research-stage-iv-microgreen-development-and-gravitropic-response/README.md) |

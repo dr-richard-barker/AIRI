@@ -41,7 +41,7 @@ collect real data on your phone, and share it with student scientists around the
     Become a citizen scientist. Grow your own microgreens, run real experiments,
     and add your data to a worldwide project.
 
-    [:octicons-arrow-right-24: Start at Stage I](stage-i-space-invaders-data-literacy/README.md)
+    [:octicons-arrow-right-24: Start at Stage I](stage-i-scientific-photography/README.md)
 
 -   :material-rocket-launch:{ .lg .middle } __For Researchers__
 
@@ -64,7 +64,7 @@ more than seeds, water, and a smartphone.
 
     | Stage | What you'll do | You'll need |
     |-------|----------------|-------------|
-    | **I — Space Invaders & Data Literacy** | Learn what "data" means by playing a game and exploring digital footprints. | A computer or tablet |
+    | **I — Scientific Photography** | Learn to photograph plants like a scientist so they can be measured and compared. | A camera or smartphone |
     | **II — Favorite Microgreen** | Pick a crop and vote with the world. Explore real nutrition and yield data. | Internet access |
     | **III — Growing Microgreens** | Grow microgreens in soil, photograph them daily, and measure growth. | Seeds, trays, a phone camera |
     | **IV — Gravity & Roots** | Grow roots on agar, then rotate gravity 90° and watch them respond. | Seeds, agar or filter paper |

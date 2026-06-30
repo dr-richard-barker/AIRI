@@ -38,9 +38,14 @@ Our goal is to empower citizen scientists to develop novel urban agricultural in
 
 **Figure 1:** Education is often considered to be a pyramid scheme, but with an open framework and the embracement of the role of the arts in science communication we can build a more inclusive research community.
 
-### "Kids in Data" Space Invaders Game: A Fun Step Towards Data Literacy <a href="#msamk3lsrt9k" id="msamk3lsrt9k"></a>
+### Scientific Photography of Space Plants
 
-Participants are encouraged to discuss online data sharing and the creation of online avatars. Researchers need to be aware of their digital footprints and the associated risks and opportunities. These concepts are approached through partaking in a Space Invaders computer game league where the results from previous participants can be viewed using interactive relational databases provided by Qlik and the Kids in Data literacy program.
+Before studying how plants grow in space, participants learn to capture **science
+photographs** — clear, repeatable, measurable images of plants. Using a simple setup
+(camera, two soft lights, a contrasting background, and a known-size scale bar such as
+the AstroBotany Spectrum), students take photos that both people and computers can
+analyse, then measure them with free tools like ImageJ/Fiji, PlantCV, and Easy Leaf
+Area. This imaging skill underpins every later stage.
 
 ### What's Your Favorite Microgreen? <a href="#aiwkhr4etifn" id="aiwkhr4etifn"></a>
 

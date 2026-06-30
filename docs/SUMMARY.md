@@ -8,12 +8,11 @@
         * [Links to Next Generation Science Standards (NGSS)](airi-astrobotany-introduction/airi-course-links-to-next-generation-science-standards.md)
         * [Table 1: AIRI Experimental Course Map](airi-astrobotany-introduction/table-1-airi-experimental-course-map.md)
 * 🧑‍🏫 Classroom Track
-    * [Stage I: Space Invaders Data Literacy](stage-i-space-invaders-data-literacy/README.md)
-        * [Welcome to the Data Literacy Space Invaders League](stage-i-space-invaders-data-literacy/welcome-to-the-airi-data-literacy-space-invaders-league.md)
+    * [Stage I: Scientific Photography of Space Plants](stage-i-scientific-photography/README.md)
+        * [AstroBotany Photography Guide (SOP)](stage-i-scientific-photography/photography-guide.md)
     * [Stage II: What's Your Favorite Microgreen?](stage-ii-whats-your-favorite-microgreen/README.md)
         * [Table 2: Microgreen Growth Rates & Conditions](stage-ii-whats-your-favorite-microgreen/tables-of-microgreen-growth-rates-and-example-conditions-to-use-a-general-guide.md)
     * [Stage III: Growing Microgreens in Terrestrial Environments](stage-iii-growth-of-microgreens-in-terrestrial-environments/README.md)
-        * [Space Biology Photography Guide & Lesson Brainstorming](stage-iii-growth-of-microgreens-in-terrestrial-environments/space-biology-photography-guide-and-lesson-brainstorming.md)
     * [Stage IV: Microgreen Development & Gravitropic Response](research-stage-iv-microgreen-development-and-gravitropic-response/README.md)
         * [Gravity and Mechanical Sensing in Plants](research-stage-iv-microgreen-development-and-gravitropic-response/gravity-and-mechanical-sensing-in-plants.md)
 * 🔬 Extension & Research Track

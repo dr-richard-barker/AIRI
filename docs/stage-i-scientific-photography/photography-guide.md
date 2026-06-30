@@ -22,7 +22,7 @@ This introduction summarizes the key points that this document will cover and hi
 
 
 
-[![Illustration the optimal placement of a camera, the AstroBotany Spectrum scale bar, lights, and camera for consistent and high-quality image capture. A simple diagram showing the placement of the camera is a light perpendicular to the germinating seeds or seedlings. In this example, the seeds are germinated on agar gel / or blue filter paper..png](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/photography9.png)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/photography9.png)
+![Illustration the optimal placement of a camera, the AstroBotany Spectrum scale bar, lights, and camera for consistent and high-quality image capture. A simple diagram showing the placement of the camera is a light perpendicular to the germinating seeds or seedlings. In this example, the seeds are germinated on agar gel / or blue filter paper..png](../gitbook/assets/photography9.webp)
 
 **Above:** Illustration the optimal placement of a camera, the AstroBotany Spectrum scale bar, lights, and camera for consistent and high-quality image capture. A simple diagram showing the placement of the camera is a light perpendicular to the germinating seeds or seedlings. In this example, the seeds are germinated on agar gel / or blue filter paper.
 
@@ -40,7 +40,7 @@ This introduction summarizes the key points that this document will cover and hi
 
 
 
-[![Setting Up Your Photos to Maximize Ease of Analysis](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/photography8.png)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/photography8.png)
+![Setting Up Your Photos to Maximize Ease of Analysis](../gitbook/assets/photography8.webp)
 
 Start with a single plant and ask yourself if you took a photo from that angle do you think you could easily draw a line around the edge?
 
@@ -58,7 +58,7 @@ Remember to adjust the specific setup based on your camera's field of view, work
 
 
 
-[![Optimising Seedling Placement to Maximize Data Analysis Potential](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/photography7.png)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/photography7.png)
+![Optimising Seedling Placement to Maximize Data Analysis Potential](../gitbook/assets/photography7.webp)
 
 It is critical to take photos which are clear both for human eyes and for computer interpretation. Taking photos can be simple, especially when using modern tools which allow for the automatic standardization of images, making your images comparable to the images of researchers around the globe.
 
@@ -80,7 +80,7 @@ Here are some simple tips for taking the best possible images:
 
 **Diagrams for Setting Up Your Photos** These diagrams show ideal photo setups for maximizing the ease of analyzing your photos. The dashed line shows the area you want to capture in your images. While these images show a white background, a black background would also work.
 
-[![Diagrams for Setting Up Your Photo](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/photography6.png)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/photography6.png)
+![Diagrams for Setting Up Your Photo](../gitbook/assets/photography6.webp)
 
 ***
 
@@ -105,11 +105,11 @@ Try out this demo web application: It can assist with image analysis and SPECTRU
 
 
 
-[![Here the SPECTRUM sticker is mounted to a plastic tile to make it flat, in the background you can see an older version of the sticker standing up and curving as it’s not stuck to a surface.](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/photography5.jpeg)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/photography5.jpeg)
+![Here the SPECTRUM sticker is mounted to a plastic tile to make it flat, in the background you can see an older version of the sticker standing up and curving as it’s not stuck to a surface.](../gitbook/assets/photography5.webp)
 
 Here the SPECTRUM sticker is mounted to a plastic tile to make it flat, in the background you can see an older version of the sticker standing up and curving as it’s not stuck to a surface.
 
-[![An example photo taken from above to help make it easier to segment this tomato flower using computer vision code to help automate image analysis.](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/photography4.jpeg)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/photography4.jpeg)
+![An example photo taken from above to help make it easier to segment this tomato flower using computer vision code to help automate image analysis.](../gitbook/assets/photography4.webp)
 
 An example photo taken from above to help make it easier to segment this tomato flower using computer vision code to help automate image analysis.
 
@@ -133,7 +133,7 @@ By implementing these strategies and utilizing appropriate tools, you can maximi
 
 ***
 
-[![View of the experiment with an additional feature: the plants are now inside cuboid tissue culture tubes. These tubes are placed within the microwave, containing aquatic plants at various stages of growth. Above the microwave, the CCTV cameras observe plant growth, and a cellphone-style touch screen on a stand, all focusing on the plants inside the tubes and bowls. This arrangement highlights a more controlled and scientific approach to plant growth monitoring in a high-tech experimental environment](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/photography3.png)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/photography3.png)
+![View of the experiment with an additional feature: the plants are now inside cuboid tissue culture tubes. These tubes are placed within the microwave, containing aquatic plants at various stages of growth. Above the microwave, the CCTV cameras observe plant growth, and a cellphone-style touch screen on a stand, all focusing on the plants inside the tubes and bowls. This arrangement highlights a more controlled and scientific approach to plant growth monitoring in a high-tech experimental environment](../gitbook/assets/photography3.webp)
 
 **DALLE4 inspiration:** View of the experiment with an additional feature: the plants are now inside cuboid tissue culture tubes. These tubes are placed within the microwave, containing aquatic plants at various stages of growth. Above the microwave, the CCTV cameras observe plant growth, and a cellphone-style touch screen on a stand, all focusing on the plants inside the tubes and bowls. This arrangement highlights a more controlled and scientific approach to plant growth monitoring in a high-tech experimental environment.
 
@@ -179,7 +179,7 @@ The group lead should go to Google Forms and create a brief survey (Using Google
 
 ***
 
-[![Imagine a 3D holographic screen that displays images of the plants' health, visualized in a hologram that ranges from red to blue, indicating various health levels. The hologram floats in the air, providing a dynamic and interactive way to monitor plant health. This addition helps you imagine how you could bring high-tech and advanced technology to the experimental setup, to emphasize the cutting-edge nature of your research](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/Photography\_1.png)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/Photography\_1.png)
+![Imagine a 3D holographic screen that displays images of the plants' health, visualized in a hologram that ranges from red to blue, indicating various health levels. The hologram floats in the air, providing a dynamic and interactive way to monitor plant health. This addition helps you imagine how you could bring high-tech and advanced technology to the experimental setup, to emphasize the cutting-edge nature of your research](../gitbook/assets/photography1.webp)
 
 **DALLE4 inspiration:** Imagine a 3D holographic screen that displays images of the plants' health, visualized in a hologram that ranges from red to blue, indicating various health levels. The hologram floats in the air, providing a dynamic and interactive way to monitor plant health. This addition helps you imagine how you could bring high-tech and advanced technology to the experimental setup, to emphasize the cutting-edge nature of your research.
 
@@ -205,7 +205,7 @@ By incorporating these additional elements, you can create a more well-rounded b
 
 Remember, the specific needs of your research team and the complexity of the biological systems you're studying will ultimately determine the ideal training content. Feel free to tailor these suggestions to suit your specific requirements! I hope this feedback is helpful!
 
-[![Minimal diagram of space biology photography setup. The setup includes a camera positioned perpendicular to the imaging plane for a straight-on view of the seeds and a scale bar. The Scale Bar is placed within the same plane as the seeds, slightly behind or beside them for visibility. Two adjustable light sources are placed at 45-degree angles to the imaging plane, ensuring even illumination. A contrasting background enhances seed and scale bar visibility. The setup also includes a stable tripod and a reference object for size verification](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/raw/main/Figures/Photography\_2.png)](https://github.com/dr-richard-barker/Space\_Photography\_Guide.io/blob/main/Figures/Photography\_2.png)
+![Minimal diagram of space biology photography setup. The setup includes a camera positioned perpendicular to the imaging plane for a straight-on view of the seeds and a scale bar. The Scale Bar is placed within the same plane as the seeds, slightly behind or beside them for visibility. Two adjustable light sources are placed at 45-degree angles to the imaging plane, ensuring even illumination. A contrasting background enhances seed and scale bar visibility. The setup also includes a stable tripod and a reference object for size verification](../gitbook/assets/photography2.webp)
 
 **DALLE 4 inspiration:** Minimal diagram of space biology photography setup. The setup includes a camera positioned perpendicular to the imaging plane for a straight-on view of the seeds and a scale bar. The Scale Bar is placed within the same plane as the seeds, slightly behind or beside them for visibility. Two adjustable light sources are placed at 45-degree angles to the imaging plane, ensuring even illumination. A contrasting background enhances seed and scale bar visibility. The setup also includes a stable tripod and a reference object for size verification.
 
