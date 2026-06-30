@@ -13,8 +13,10 @@
     * [Stage II: What's Your Favorite Microgreen?](stage-ii-whats-your-favorite-microgreen/README.md)
         * [Table 2: Microgreen Growth Rates & Conditions](stage-ii-whats-your-favorite-microgreen/tables-of-microgreen-growth-rates-and-example-conditions-to-use-a-general-guide.md)
     * [Stage III: Growing Microgreens in Terrestrial Environments](stage-iii-growth-of-microgreens-in-terrestrial-environments/README.md)
+        * [Green Area Index with PlantCV](stage-iii-growth-of-microgreens-in-terrestrial-environments/green-area-index-with-plantcv.md)
     * [Stage IV: Microgreen Development & Gravitropic Response](research-stage-iv-microgreen-development-and-gravitropic-response/README.md)
         * [Gravity and Mechanical Sensing in Plants](research-stage-iv-microgreen-development-and-gravitropic-response/gravity-and-mechanical-sensing-in-plants.md)
+        * [Root System Architecture with PlantCV](research-stage-iv-microgreen-development-and-gravitropic-response/root-system-architecture-with-plantcv.md)
 * 🔬 Extension & Research Track
     * [Stage V: Auxin and Plant Cloning](stage-v-auxin-and-plant-cloning.md)
     * [Stage VI: Micro-Gravi-tropism Assays](research-stage-vi-gravitropism-assays.md)
