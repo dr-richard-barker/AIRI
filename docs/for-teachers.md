@@ -63,6 +63,16 @@ See the alignment tables to plug AIRI into your existing scheme of work:
 - [AIRI links to NGSS](airi-astrobotany-introduction/airi-course-links-to-next-generation-science-standards.md)
 - [Table 1: Experimental Course Map](airi-astrobotany-introduction/table-1-airi-experimental-course-map.md)
 
+## Show what your students learned 📊
+
+Quiz your class **before** and **after** the lesson and let the improvement speak for
+itself. AIRI includes a ready-made **self-scoring pre/post quiz** that saves each
+student's baseline and then shows their personal **learning gain** — plus a question bank
+you can drop into paper or a Google Form, and the simple maths for reporting class gains.
+
+[:octicons-arrow-right-24: Assessment & Learning Gains](assessment.md){ .md-button .md-button--primary }
+[Open the quiz directly](quiz/){ .md-button }
+
 ## Tools your students will use
 
 We are brand-agnostic, but these free tools have a proven classroom track record:
@@ -84,6 +94,8 @@ We are brand-agnostic, but these free tools have a proven classroom track record
 - [ ] Photograph samples at the **same time and distance** each day for comparable data.
 - [ ] Always include the **AstroCalibration sticker** in frame so photos can be measured.
 - [ ] Discuss **data sharing and online safety** before students post results publicly.
+- [ ] Run the **[pre-class quiz](assessment.md)** before you start and the post-class quiz
+      after, so you can evidence what students learned.
 
 ## Safety notes
 

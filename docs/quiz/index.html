@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIRI Pre / Post-class Quiz</title>
+<style>
+  :root{--green:#2e7d32;--green-l:#43a047;--ink:#1b2a1e;--muted:#5c6b5f;--card:#fff;--bg:#f3f7f3;--line:#d9e4da;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding:16px}
+  .wrap{max-width:760px;margin:0 auto}
+  h1{font-size:22px;margin:.2em 0}.sub{color:var(--muted);margin:.2em 0 1em}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin:0 0 14px}
+  .modes{display:flex;gap:10px;flex-wrap:wrap}
+  .modes button{flex:1 1 200px;padding:12px;border:2px solid var(--line);background:#fff;border-radius:10px;cursor:pointer;font-size:15px;color:var(--ink)}
+  .modes button.on{border-color:var(--green);background:#eaf5eb;font-weight:600}
+  label{display:block;margin:.3em 0}
+  input[type=text]{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;font-size:15px}
+  input[type=range]{width:100%;accent-color:var(--green)}
+  .q{margin:0 0 8px;font-weight:600}
+  .opt{display:block;padding:7px 10px;border:1px solid var(--line);border-radius:8px;margin:5px 0;cursor:pointer}
+  .opt:hover{background:#f0f7f1}
+  .opt input{margin-right:8px}
+  .opt.correct{background:#e3f6e5;border-color:var(--green)}
+  .opt.wrong{background:#fdecec;border-color:#d66}
+  .explain{font-size:13px;color:var(--muted);margin:4px 0 0;padding-left:4px}
+  .btn{background:var(--green);color:#fff;border:0;border-radius:8px;padding:11px 20px;font-size:15px;cursor:pointer}
+  .btn:hover{background:#256528}.btn.sec{background:#eaeee9;color:var(--ink)}
+  .hidden{display:none}
+  .result h2{margin:.2em 0}
+  .gain{font-size:30px;font-weight:700;color:var(--green)}
+  .bars{margin:12px 0}
+  .bar{height:22px;border-radius:5px;background:linear-gradient(90deg,var(--green-l),var(--green));margin:4px 0;color:#fff;font-size:12px;line-height:22px;padding-left:8px;min-width:2px}
+  .barlab{font-size:12px;color:var(--muted)}
+  .note{font-size:13px;color:var(--muted)}
+  footer{color:var(--muted);font-size:12px;text-align:center;margin-top:10px}
+  footer a{color:var(--green)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🌱 AIRI Quiz — before &amp; after class</h1>
+  <p class="sub">Take this <b>before</b> your astrobotany lesson, then again <b>after</b>, to see how much you learned.
+  Your "before" score is saved on this device so the "after" quiz can show your <b>learning gain</b>.</p>
+
+  <div class="card">
+    <label for="name"><b>Your name or nickname</b> (so your before/after match up)</label>
+    <input type="text" id="name" placeholder="e.g. Mizuna123">
+    <p style="margin:.8em 0 .3em"><b>When are you taking this?</b></p>
+    <div class="modes">
+      <button id="mPre" class="on">🟦 Before class (baseline)</button>
+      <button id="mPost">🟩 After class (show my gain)</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <label><b>How confident do you feel about growing plants in space?</b> <span id="confv">3</span> / 5</label>
+    <input type="range" id="conf" min="1" max="5" step="1" value="3">
+  </div>
+
+  <div id="questions"></div>
+
+  <div class="card">
+    <button class="btn" id="submit">Submit my answers</button>
+    <button class="btn sec" id="reset">Reset</button>
+  </div>
+
+  <div class="card result hidden" id="result"></div>
+
+  <footer>Part of the <a href="../for-teachers/">AIRI</a> astrobotany program · public domain (CC0).
+  Teachers: see the <a href="../assessment/">Assessment &amp; Learning Gains</a> guide.</footer>
+</div>
+
+<script>
+const BANK = [
+ {q:"Why do scientists want to grow plants in space?",
+  o:["Plants make the spaceship lighter","For food, oxygen, and crew wellbeing on long missions","Plants can't grow in space","To test spaceship paint"],a:1,
+  e:"On long missions plants provide food, recycle CO₂ into oxygen, and support wellbeing."},
+ {q:"What is \"gravitropism\"?",
+  o:["A plant growing toward light","A plant's growth response to gravity","A type of fertiliser","A kind of rocket"],a:1,
+  e:"Gravitropism is how plant organs orient to gravity — roots grow down, shoots up."},
+ {q:"What does the AstroCalibration sticker do in a photo?",
+  o:["Decorates the tray","Gives a known size and colour so software can measure the plant","Feeds the plant","Blocks the light"],a:1,
+  e:"It's a size + colour reference so tools like PlantCV can calibrate the image."},
+ {q:"Where in the root is the auxin maximum found?",
+  o:["At the very tip (the quiescent centre)","In the leaves","In the flowers","Roots have no auxin"],a:0,
+  e:"Polar auxin transport concentrates auxin at the quiescent centre near the root tip."},
+ {q:"What is \"Green Area Index\" a measure of?",
+  o:["How green the sky is","How much green canopy covers the growing area","The number of seeds","The temperature"],a:1,
+  e:"GAI ≈ green (leaf) area per ground area — it rises as microgreens grow."},
+ {q:"Why photograph plants the same way (distance, lighting) each day?",
+  o:["To save battery","So the images can be fairly compared and measured","It makes no difference","Only to look pretty"],a:1,
+  e:"Consistent imaging makes measurements comparable over time and between people."},
+ {q:"Which free tool measures plants from photos using computer vision?",
+  o:["PlantCV","A thermometer","A ruler app only","A microscope"],a:0,
+  e:"PlantCV is open-source plant computer vision used in Stages I, III and IV."},
+ {q:"When a root is turned on its side, what happens to auxin?",
+  o:["It stays perfectly even","It builds up on the lower side, bending the root down","It leaves the plant","It moves up to the leaves"],a:1,
+  e:"Gravistimulation redistributes auxin to the lower side, causing downward bending."},
+ {q:"What makes data \"FAIR\" and shareable with scientists worldwide?",
+  o:["Keeping it secret","Recording clear methods and using open tools and formats","Deleting it after class","Only writing it on paper"],a:1,
+  e:"FAIR = Findable, Accessible, Interoperable, Reusable — clear methods + open formats."},
+ {q:"Why are microgreens a good classroom crop?",
+  o:["They take a whole year to grow","They germinate in days, so results fit a unit","They need a spaceship","They can't be measured"],a:1,
+  e:"Fast germination means students collect real data within a short unit."},
+];
+const $=id=>document.getElementById(id);
+let mode='pre';
+$('mPre').onclick=()=>setMode('pre'); $('mPost').onclick=()=>setMode('post');
+function setMode(m){ mode=m; $('mPre').classList.toggle('on',m==='pre'); $('mPost').classList.toggle('on',m==='post'); }
+$('conf').oninput=e=>$('confv').textContent=e.target.value;
+
+const qc=$('questions');
+BANK.forEach((item,i)=>{ const d=document.createElement('div'); d.className='card';
+  d.innerHTML=`<p class="q">${i+1}. ${item.q}</p>`+item.o.map((o,j)=>
+    `<label class="opt" id="o${i}_${j}"><input type="radio" name="q${i}" value="${j}">${o}</label>`).join('')
+    +`<p class="explain hidden" id="e${i}"></p>`;
+  qc.appendChild(d); });
+
+function key(){ return 'airi_pre_'+($('name').value.trim().toLowerCase()||'default'); }
+
+$('submit').onclick=()=>{
+  let score=0; const answered=[];
+  BANK.forEach((item,i)=>{ const sel=document.querySelector(`input[name=q${i}]:checked`);
+    const pick=sel?+sel.value:-1; answered.push(pick); if(pick===item.a) score++; });
+  const pct=Math.round(score/BANK.length*100), conf=+$('conf').value;
+
+  if(mode==='pre'){
+    localStorage.setItem(key(),JSON.stringify({score,pct,conf,total:BANK.length}));
+    show(`<h2>✅ Baseline saved</h2>
+      <p>You scored <b>${score}/${BANK.length}</b> and rated your confidence <b>${conf}/5</b>.</p>
+      <p class="note">Answers are hidden for now (so the "after" quiz is fair). Come back <b>after your lesson</b>,
+      pick <b>After class</b>, use the same name, and you'll see how much you learned.</p>`);
+  } else {
+    // reveal answers
+    BANK.forEach((item,i)=>{ for(let j=0;j<item.o.length;j++) $(`o${i}_${j}`).classList.remove('correct','wrong');
+      $(`o${i}_${item.a}`).classList.add('correct');
+      if(answered[i]>=0 && answered[i]!==item.a) $(`o${i}_${answered[i]}`).classList.add('wrong');
+      const ex=$(`e${i}`); ex.textContent='➡ '+item.e; ex.classList.remove('hidden'); });
+    const pre=JSON.parse(localStorage.getItem(key())||'null');
+    let gainHtml='';
+    if(pre){ const g=pre.pct>=100?100:Math.max(0,Math.round((pct-pre.pct)/(100-pre.pct)*100));
+      gainHtml=`<div class="bars">
+        <div class="barlab">Before: ${pre.pct}%</div><div class="bar" style="width:${pre.pct}%">${pre.pct}%</div>
+        <div class="barlab">After: ${pct}%</div><div class="bar" style="width:${pct}%">${pct}%</div></div>
+        <p class="gain">Learning gain: ${g}%</p>
+        <p class="note">Normalised gain = (after − before) ÷ (100 − before). Confidence: ${pre.conf}/5 → ${conf}/5.
+        ${pct>pre.pct?'You improved — nice work! 🚀':(pct===pre.pct?'Same score — review the explanations above.':'Lower than before — check the explanations above.')}</p>`;
+    } else {
+      gainHtml=`<p class="note">No "before" score found for this name. Take the <b>Before class</b> quiz first to measure your gain.</p>`;
+    }
+    show(`<h2>Results: ${score}/${BANK.length} (${pct}%)</h2>${gainHtml}
+      <p class="note">Scroll up to see the correct answers and explanations for each question.</p>`);
+  }
+  $('result').scrollIntoView({behavior:'smooth',block:'nearest'});
+};
+
+$('reset').onclick=()=>{ document.querySelectorAll('input[type=radio]').forEach(r=>r.checked=false);
+  BANK.forEach((_,i)=>{ for(let j=0;j<4;j++)$(`o${i}_${j}`)&&$(`o${i}_${j}`).classList.remove('correct','wrong'); $(`e${i}`).classList.add('hidden'); });
+  $('result').classList.add('hidden'); $('conf').value=3; $('confv').textContent='3'; window.scrollTo({top:0,behavior:'smooth'}); };
+
+function show(html){ const r=$('result'); r.innerHTML=html; r.classList.remove('hidden'); }
+</script>
+</body>
+</html>
