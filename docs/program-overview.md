@@ -104,4 +104,4 @@ Understanding how auxin affects plants at a cellular level is difficult and requ
 
 <figure><img src="../gitbook/assets/image (6).png" alt="" width="375"><figcaption><p>Source: Collaborative Science Environment for the 3D clinostat rendering and photo of the germinating seeds inside it.</p></figcaption></figure>
 
-**Figure 9:** Special 3D clinostats and random positioning machines can create simulated microgravity. This CoSE Scispinner max can also produce a directional phototropic stimulus.&#x20;
+**Figure 9:** Special 3D clinostats and random positioning machines can create simulated microgravity. This [CoSE Scispinner max](https://cosecloud.com/) can also produce a directional phototropic stimulus.&#x20;
