@@ -47,10 +47,10 @@ collect real data on your phone, and share it with student scientists around the
 
     ---
 
-    Computational modelling, RNA-seq mining, and clinostat experiments for
-    advanced learners and citizen scientists who want to go deeper.
+    A training pathway toward running **simulated-microgravity** experiments on the
+    **CoSE SciSpinner Max RPM** — imaging, gravitropism, analysis, and modelling.
 
-    [:octicons-arrow-right-24: Extension & research track](stage-vii-modelling-of-plant-hormone-transport.md)
+    [:octicons-arrow-right-24: The researcher pathway](extension-research-track.md)
 
 </div>
 
