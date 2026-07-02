@@ -1,4 +1,11 @@
-# Stage VI: Gravitropism assays (Needs work)
+# Stage VI: Micro-Gravi-tropism Assays
+
+!!! abstract "This is the RPM step of the [researcher pathway](extension-research-track.md)"
+    Here you run a **simulated-microgravity** experiment on the **CoSE SciSpinner Max**
+    (a 3D clinostat / random positioning machine). Work through the
+    [pre-flight checklist](extension-research-track.md#are-you-rpm-ready-a-pre-flight-checklist)
+    first, and remember to run a **paired 1 g control** (same setup, not rotating).
+    Access the machine via the [CoSE Researchers page](https://www.cosecloud.com/researchers).
 
 ### **Introduction**
 
