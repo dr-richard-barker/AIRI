@@ -38,8 +38,8 @@ collect real data on your phone, and share it with student scientists around the
 
     ---
 
-    Become a citizen scientist. Grow your own microgreens, run real experiments,
-    and add your data to a worldwide project.
+    Grow your own microgreens, run real experiments, and measure plants like a
+    scientist — then add your data to a worldwide project.
 
     [:octicons-arrow-right-24: Start at Stage I](stage-i-scientific-photography/README.md)
 
@@ -51,6 +51,15 @@ collect real data on your phone, and share it with student scientists around the
     **CoSE SciSpinner Max RPM** — imaging, gravitropism, analysis, and modelling.
 
     [:octicons-arrow-right-24: The researcher pathway](extension-research-track.md)
+
+-   :material-earth:{ .lg .middle } __For Citizen Scientists__
+
+    ---
+
+    No classroom or lab needed. Grow at home, measure with your phone, and
+    **contribute real data** to a global, open astrobotany project.
+
+    [:octicons-arrow-right-24: Grow &amp; contribute](citizen-scientists.md)
 
 </div>
 

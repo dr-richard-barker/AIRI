@@ -4,6 +4,7 @@
 * [Program Overview](program-overview.md)
 * [For Teachers](for-teachers.md)
 * [Assessment & Learning Gains](assessment.md)
+* [For Citizen Scientists](citizen-scientists.md)
 * Getting Started
     * [Introduction to AstroBotany & Data Sharing](airi-astrobotany-introduction/README.md)
         * [Links to Next Generation Science Standards (NGSS)](airi-astrobotany-introduction/airi-course-links-to-next-generation-science-standards.md)
