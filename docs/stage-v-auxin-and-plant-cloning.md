@@ -53,17 +53,12 @@ Check your agar is dissolved (if not cooked for longer, might be a batch effect)
 
 After autoclaving, allow to cool to \~45C
 
-Add 100 ul kinetin, 667 ul 1M NaOH (to prepare 1M NaOH: Add 1.99g NaOH in 50 mL H2O) and 2,4-D (1mg/mL) (2,4-Dichlorophenoxy acetic acid = Auxin!).&#x20;
+Add 100 ul kinetin, 667 ul 1M NaOH (to prepare 1M NaOH: Add 1.99g NaOH in 50 mL H2O) and 2,4-D (1mg/mL) (2,4-Dichlorophenoxy acetic acid = Auxin!).
 
 ### **Preparing Auxin stocks**
 
-*   Dissolve 400mg 2,4-D in 400mL 70% methanol (may also use ethanol)
-
-    * Must be stored at -20C
-
-
-
-<figure><img src="../gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+* Dissolve 400mg 2,4-D in 400mL 70% methanol (may also use ethanol)
+  * Must be stored at -20C
 
 ### **Cloning/cuttings protocol**
 
@@ -75,4 +70,3 @@ Add 100 ul kinetin, 667 ul 1M NaOH (to prepare 1M NaOH: Add 1.99g NaOH in 50 mL 
 * Store plants in your growth environment (Blue light help some species establish roots better).
 * Don’t let them dry out.
 * After they’ve made roots move the new plants into a soil pots or hydroponics and enjoy.
-

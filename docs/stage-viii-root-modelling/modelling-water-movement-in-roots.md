@@ -1,14 +1,10 @@
 # Modelling water movement in roots
 
-
-
 Check out this review article
 
 📄 [Read the paper (Plant Direct)](https://onlinelibrary.wiley.com/doi/10.1002/pld3.582)
 
-<figure><img src="../gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 Check out the shiny application to identify most important facters affect the soil-plant-atmopshere continuum
 
@@ -20,13 +16,11 @@ MECHA is an explicit cross-section model of the root hydraulic anatomy which con
 
 The model computes horizontal water flow at the level of individual cells, quantifies the contribution of water composite pathways, and predicts root radial permeability (kr), using detailed anatomical descriptions and experimental data on the permeability of cell walls (kw), membranes (Lp) and the conductance of individual plasmodesmata (KPD).
 
-<figure><img src="../gitbook/assets/image (27).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).webp" alt=""><figcaption></figcaption></figure>
 
 [https://mecharoot.github.io/](https://mecharoot.github.io/)
 
-
-
-<figure><img src="../gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ### Using MECHA
 
@@ -59,8 +53,7 @@ MECHA output files in a folder defined in the `General.xml` input file, under th
 MECHA was developed at the Université catholique de Louvain, in the Earth and Life Insititute, in the lab of [Xavier Draye](http://www.uclouvain.be/xavier.draye).\
 \
 The primary developpers of the model are [Valentin Couvreur](http://www.uclouvain.be/valentin.couvreur) and Marc Faget.\
-\
-
+\\
 
 MECHA what first used here:
 
@@ -70,7 +63,7 @@ MECHA what first used here:
 
 ***
 
-[ Source code on GitHub](https://github.com/MECHARoot/MECHA/releases/tag/1.0) [ View paper](https://mecharoot.github.io)
+[Source code on GitHub](https://github.com/MECHARoot/MECHA/releases/tag/1.0) [View paper](https://mecharoot.github.io)
 
 ***
 
@@ -111,6 +104,3 @@ MECHA was then re-use in other research study, such as:
 > [Evidence for a multicellular symplasmic water pumping mechanism across vascular plant roots\
 > V Couvreur, A Heymans, G Lobet, X Draye\
 > BiorXiv, 2021](https://doi.org/10.1101/2021.04.19.439789)
-
-
-

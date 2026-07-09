@@ -6,8 +6,8 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 
 **Supplies:**
 
-* For a quick easy protocol you could try [Hamama kit](https://www.hamama.com/), or create your own rooting system.&#x20;
-  * Standard “1020 Planting Trays” or Standard lab weighing tray, or Petri dishes&#x20;
+* For a quick easy protocol you could try [Hamama kit](https://www.hamama.com/), or create your own rooting system.
+  * Standard “1020 Planting Trays” or Standard lab weighing tray, or Petri dishes
 * Record your experimental design, in your "science journal" or try a online platform such as [Benchling](https://www.benchling.com/).
 * Two two seed types need to be grown in parallel for comparison
 * Seed quilts/Planting Soil / vermiculite / perlite / and water (volume is crucial)
@@ -59,9 +59,9 @@ In this stage, participants focus on growth patterns of microgreens in soil grow
 * Mist soil daily in order to keep it damp.
 * Measure the light intensity above your plant canopy. An easy way to do this is download the “Google Science Journal Application ''. This tool allows you to use your smart device's camera to measure the light intensity. Try to get the device right in the center of the tray. You can even create a map to show the light distribution over your entire canopy.
 
-<figure><img src="../gitbook/assets/image (8).webp" alt="" width="375"><figcaption><p>(A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).webp" alt="" width="375"><figcaption><p>(A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water.</p></figcaption></figure>
 
-<figure><img src="../gitbook/assets/image (7).webp" alt="" width="375"><figcaption><p>(B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).webp" alt="" width="375"><figcaption><p>(B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna.</p></figcaption></figure>
 
 **Figure 12:** (A) Simple 4 tray microgreen hydroponic system under fluorescent lights in the corner of a classroom. This teacher cleverly built it into their skink area to make it easier to wash away the dirt and provide easy access to water. (B) Along with the soil method, this research group built a simple hydroponic system using an airstone, LED headlight and plastic trays to grow mizuna. This system, while basic, provides valuable data regarding biomass and growth rates for microgreen species.
 
@@ -138,9 +138,7 @@ Easy leaf area is free, open source, software that rapidly measures leaf area in
 
 [https://github.com/lvbauer/soapp-tutorial/blob/main/soapp-guide.md](https://github.com/lvbauer/soapp-tutorial/blob/main/soapp-guide.md)
 
-Note: more work is needed expanding this part of the tutorial.&#x20;
-
-
+Note: more work is needed expanding this part of the tutorial.
 
 ### **Data Analysis Protocol**
 
@@ -150,7 +148,7 @@ Note: more work is needed expanding this part of the tutorial.&#x20;
 
 **Goal:** Observe a real experimental data matrix and then make your own
 
-* Students are given an [example ](https://docs.google.com/spreadsheets/d/1NIJLvMePCzTk8kKfVo\_ePQOXW2zHa8bazv1O1rKtkqM/edit?usp=sharing)spreadsheet
+* Students are given an [example ](https://docs.google.com/spreadsheets/d/1NIJLvMePCzTk8kKfVo_ePQOXW2zHa8bazv1O1rKtkqM/edit?usp=sharing)spreadsheet
 * Students can use these demo data to practice using these analysis tools.
 * Eventually, the students will enter their own data into their class's shared spreadsheet and then analyse it using these applications.
 
@@ -161,14 +159,14 @@ Note: more work is needed expanding this part of the tutorial.&#x20;
 * How to make a [Boxplot](http://shiny.chemgrid.org/boxplotr/) R-shiny
 * Play with data in [GGPlot](https://site.shinyserver.dck.gmw.rug.nl/ggplotgui/) R-shiny
 * How to make a [bar plot using R-Plotly](https://docs.google.com/document/d/1bueze0FoVhUslthJ6rgQ2Pz9njW5mvefff2N4KlUbac/edit?usp=sharing)
-* New root growth analysis tool called root [RootFit](https://github.com/RootFitProject/rootfit)&#x20;
+* New root growth analysis tool called root [RootFit](https://github.com/RootFitProject/rootfit)
 
 **Statistics**
 
 **Goal:** Introduction to statistics for teachers and students T-test
 
 * This article describes how [R-shiny statistics app](https://escholarship.org/uc/item/00d4q8cp)’s can be used in the classroom
-* How to do a simple [T-test using R-shiny](http://shiny.stat.calpoly.edu/t\_Test/) app.
+* How to do a simple [T-test using R-shiny](http://shiny.stat.calpoly.edu/t_Test/) app.
 
 ### **Data sharing system (Epicollect )**
 
@@ -195,14 +193,10 @@ Note: more work is needed expanding this part of the tutorial.&#x20;
 
 <figure><img src="https://lh7-us.googleusercontent.com/olSFgTdPw0k7lK2Q0MMXIayMei0sBbmG3ADgzVuHvD5KvLwj1-vpCQuv7hnpzh4klUyKJb7Wc9tWWHPtX_3MnP-axd0esY3j084JkWXTNgVyov__3S2u6f1-wZMuMGDx3UDxrTWj8Gm6-pK-44R-zA" alt=""><figcaption></figcaption></figure>
 
-
-
-Alternatively, you could create your own datasharing treaure hunt using [uoVidiWeb application](https://quovidi.github.io/).&#x20;
+Alternatively, you could create your own datasharing treaure hunt using [uoVidiWeb application](https://quovidi.github.io/).
 
 [![](https://quovidi.github.io/assets/img/logo.png)](https://quovidi.github.io/)[QuoVidiWeb application for large scale treasure hunts](https://quovidi.github.io/)
 
 🔗 [Open the QuoVidi treasure-hunt web application](https://quovidi.github.io/)
 
 Find out more by reading their paper: doi: https://doi.org/10.1101/2020.06.30.177006
-
-&#x20;

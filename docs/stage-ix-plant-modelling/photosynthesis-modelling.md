@@ -1,10 +1,8 @@
 # Photosynthesis modelling
 
-
-
 🖥️ [Photosynthesis model (interactive Shiny app)](https://biocycle.atmos.colostate.edu/shiny/photosynthesis/)
 
-<figure><img src="../gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
 #### MODEL DESCRIPTION
 
@@ -25,4 +23,3 @@ where $$JmaxJmax$$ is the maximum rate of electron transport ($$μμ$$ mol elect
 All the parameters $$KCKC$$, $$KoKo$$, $$VmaxVmax$$, and $$JmaxJmax$$ also depend on temperature.
 
 The program that does the calculation is very simple, and the code that controls this website is surprisingly simple too! It is all written in the programming language [R](http://www.r-project.org/), using a web programming package called [shiny](http://www.rstudio.com/shiny/). You can read all about it on the “**Website Code**” tab to the right.
-

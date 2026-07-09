@@ -1,5 +1,5 @@
 ---
-cover: ../gitbook/assets/image (2).png
+cover: ../../.gitbook/assets/image (2).png
 coverY: 0
 ---
 
@@ -7,23 +7,20 @@ coverY: 0
 
 Zhou, X., Schnepf, A., Vanderborght, J., Leitner, D., Lacointe, A., Vereecken, H., & Lobet, G. (2020). CPlantBox, a whole-plant modelling framework for the simulation of water- and carbon-related processes. _In Silico Plants_, _2_(1). https://doi.org/10.1093/insilicoplants/diaa001
 
-CplantBox:&#x20;
+CplantBox:
 
-<figure><img src="../gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-## Example Simulation videos available in Youtube Channel&#x20;
+## Example Simulation videos available in Youtube Channel
 
 ▶️ [Visit the YouTube channel](https://www.youtube.com/channel/UCPK-pFfpK94jiamgwHxX32Q)
 
 Change the parameters and see how the morphology changes
 
-<figure><img src="../gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 More information in this github
 
 [https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox?tab=readme-ov-file](https://github.com/Plant-Root-Soil-Interactions-Modelling/CPlantBox?tab=readme-ov-file)
 
-
-
 🔗 [CPlantBox whole-plant model](https://cplantbox.com/)
-

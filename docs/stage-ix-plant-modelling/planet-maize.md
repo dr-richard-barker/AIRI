@@ -8,12 +8,10 @@ The focus of PlaNet-Maize is to investigate the effect of environmental and endo
 
 🖥️ [PlaNet-Maize interactive app](https://plantmodelling.shinyapps.io/PlaNet_Maize/)
 
-
-
-<figure><img src="../gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 The code of this web app is open source and available here: Source code
 
 #### How to cite PlaNet-Maize
 
-**A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system (2014)**Lobet G, Pagès P, Draye X View paper  Access PDF
+\*\*A modeling approach to determine the importance of dynamic regulation of plant hydraulic conductivities on the water uptake dynamics in the soil-plant-atmosphere system (2014)\*\*Lobet G, Pagès P, Draye X View paper Access PDF

@@ -1,11 +1,6 @@
 # Stage VI: Micro-Gravi-tropism Assays
 
-!!! abstract "This is the RPM step of the [researcher pathway](extension-research-track.md)"
-    Here you run a **simulated-microgravity** experiment on the **CoSE SciSpinner Max**
-    (a 3D clinostat / random positioning machine). Work through the
-    [pre-flight checklist](extension-research-track.md#are-you-rpm-ready-a-pre-flight-checklist)
-    first, and remember to run a **paired 1 g control** (same setup, not rotating).
-    Access the machine via the [CoSE Researchers page](https://www.cosecloud.com/researchers).
+!!! abstract "This is the RPM step of the [researcher pathway](extension-research-track.md)" Here you run a **simulated-microgravity** experiment on the **CoSE SciSpinner Max** (a 3D clinostat / random positioning machine). Work through the [pre-flight checklist](extension-research-track.md#are-you-rpm-ready-a-pre-flight-checklist) first, and remember to run a **paired 1 g control** (same setup, not rotating). Access the machine via the [CoSE Researchers page](https://www.cosecloud.com/researchers).
 
 ### **Introduction**
 
@@ -33,15 +28,11 @@ On Earth, it is challenging to achieve a prolonged state of microgravity. Howeve
 * Filter paper
 * Micropore Medical Tape
 
-
-
 ### **Experimental Variable**
 
 * **Gravitropic stimuli:** On the 4th day of observations, (half of the total amount of plates seeded) rotate 90 degrees.
 * Take photos every 15min for 6 hours.
 * From the 5th day until the 14th day, record the differences between the growth patterns of the roots in both plate types. (Control, Experimental)
-
-
 
 **Advanced automated image analysis in the cloud**
 
@@ -152,12 +143,6 @@ For experimental data to be significant, it needs to be based on repetitive tria
 13. For each gravi-stimulation time, quantify and plot the average angle of curvature with associated variance, fit the corresponding data with L and H model curves as defined in Perbal _et al_., (2002) \[8], and use these models to calculate the presentation time (L model) and the sensitivity score (H model).
 
 <figure><img src="https://lh7-us.googleusercontent.com/C69n_kte7D8cIS20JWBOTehZPmeAwg791KmZ0hCRjIUA6Yytujc0VmnagTfPh_DrRFC6zhA330DeeXKfKn5TSnf7qbTZhWF0IPCz07tv3cTaTHmHaqal7DWKc5ceh8m4yt-hrWC981gKUrBFqWGWhA" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../gitbook/assets/image (13).webp" alt=""><figcaption><p>Empty clinostat from CoSE</p></figcaption></figure>
-
-
-
-<figure><img src="../gitbook/assets/image (14).webp" alt=""><figcaption><p>2D clinsotat with control plates. </p></figcaption></figure>
 
 ### Stage V Protocols for microgravity simulators <a href="#g517wjh83dtl" id="g517wjh83dtl"></a>
 

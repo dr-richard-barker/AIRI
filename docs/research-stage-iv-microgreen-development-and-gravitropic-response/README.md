@@ -8,7 +8,7 @@ The second stage of this program focuses on observing gravity sensing mechanisms
 
 **Supplies:**
 
-* [100 x 15 mm square dish](https://www.amazon.com/UPlama-Integrid-Transfer-Pipettes-Projects/dp/B07ZQYBQFV/ref=sr\_1\_6?dchild=1\&keywords=100+x+15mm+square+dish\&qid=1604348348\&sr=8-6) (4 per observation group), if this isn’t possible the clear boxes full of brownies at the supermarket can also work well.
+* [100 x 15 mm square dish](https://www.amazon.com/UPlama-Integrid-Transfer-Pipettes-Projects/dp/B07ZQYBQFV/ref=sr_1_6?dchild=1\&keywords=100+x+15mm+square+dish\&qid=1604348348\&sr=8-6) (4 per observation group), if this isn’t possible the clear boxes full of brownies at the supermarket can also work well.
 * Plant grow Media (Use one of these two options and note in data sheet)
   * **Option 1: the Easy Filter paper and Water**
   * **Option 2: the Simple Agar Media**
@@ -78,8 +78,6 @@ See Getting Started on RootNav/SmartRoot section for details)
 * Pour a moderate amount of agar in selected plates. (If possible, keep the temperature of media under 40°C to minimize condensation)
 * Place lids on plates upside down and let sit for an 30min
 
-
-
 ### **Microgreen Seeding Protocol**
 
 After the media has settled, turn the lids over and close the plates.
@@ -96,8 +94,6 @@ After the media has settled, turn the lids over and close the plates.
 * Place light source above plates (1-2 feet).
 * Record light intensity using the Google Science Journal application
 * Record day and time of seeding plates
-
-
 
 **Observational and Data Collection Protocol**
 
@@ -143,15 +139,11 @@ After the media has settled, turn the lids over and close the plates.
 * Then measure the lateral roots.
 * The software automatically save the RSML files as you measure. At the end of your analysis you can export as .txt file / spreadsheet.
 
-
-
 <figure><img src="https://lh7-us.googleusercontent.com/QjztcOv3iCzW_VujAdW8HsKTjZ5WMZmuEtGLmoKKR6lw2bm9O_xmsGJT2T7vtOnJuEMozRVaPemhxWcqzQrZbdL0_uNPDwUDbjKW-kNF9IGM0SNjCtg0SyfV42piY9PuJUr1ZO-aJM8Ynvls983npQ" alt=""><figcaption></figcaption></figure>
 
 *   In addition, a range of characteristics can quickly be plotted within Fiji
 
     <figure><img src="https://lh7-us.googleusercontent.com/DqPqru6gRiMRux5Z7zh6Llmw6mWqJwV_NsdMyvitut4b6xgo8iZg7z9BvsK32UrhKjSaf69bYVOEhYYhyBf8i8OhIQ4-_PcfhGK-8ldsqewBnbonDab9_fKLH6Cpyy0og_9pq1ffclWFKJxoJL_Hsw" alt=""><figcaption></figcaption></figure>
-
-
 
 ### **Getting Started on RootNav**
 
@@ -163,7 +155,10 @@ Note: Best for Window’s OS and a single time point
 * The RootNavViewer Portal allows researchers to explore databases of root system architecture ([Software still under development here](https://github.com/Chagrilled/RootNavPortal)).
 *
 
-    <figure><img src="https://lh7-us.googleusercontent.com/9OrwOTpwm7Cx-R4-yj80V8TP1QLNrNEWSg8zHYmMb8OxsPUbh2TckYPa86maRvw96ZfdPAsP61NqLAAF27MevyXcLn4iycmn8RAhWgdMHuwXZ-6-_LGfMpwhhiVY5J8-LFHZdCj6Xivr-I-yguVCTw" alt="" width="563"><figcaption></figcaption></figure>
+```
+<figure><img src="https://lh7-us.googleusercontent.com/9OrwOTpwm7Cx-R4-yj80V8TP1QLNrNEWSg8zHYmMb8OxsPUbh2TckYPa86maRvw96ZfdPAsP61NqLAAF27MevyXcLn4iycmn8RAhWgdMHuwXZ-6-_LGfMpwhhiVY5J8-LFHZdCj6Xivr-I-yguVCTw" alt="" width="563"><figcaption></figcaption></figure>
+```
+
 * RootNav2 is a new software that requires a very specific type of image acquisition. New protocol coming soon...
 
 **Installation:**
@@ -177,7 +172,7 @@ Note: Best for Window’s OS and a single time point
 * Once the ZIP file is downloaded, click on the folder. Click onto the RootNav folder and click to extract all files.
 * After the extraction is complete, click on the RootNav application to open the software.
 * If you don’t have a window’s computer you can use one of these free cloud computer.
-* [https://www.onworks.net/software/app-rootnav](https://www.onworks.net/software/app-rootnav)&#x20;
+* [https://www.onworks.net/software/app-rootnav](https://www.onworks.net/software/app-rootnav)
 
 🖥️ [Run RootNav online (OnWorks)](https://www.onworks.net/software/app-rootnav)
 
@@ -185,7 +180,7 @@ Note: Best for Window’s OS and a single time point
 
 * Here’s an example of the [ArchDart R-shiny](https://plantmodelling.shinyapps.io/archidart/) package, this software allows you to vizulize modelled root system roots quickly and easily.
 * RSML data can be imported into this application and view easily but does require some experience with R-studio.
-* First down Anaconda and the latest version of R (or you can run it in the [CyVerse cloud](https://learning.cyverse.org/projects/vice/en/latest/user\_guide/quick-rstudio.html)).
+* First down Anaconda and the latest version of R (or you can run it in the [CyVerse cloud](https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html)).
 * Then run the following lines of R code.
   * install\_github("archiDART/archiDART", force = TRUE)
   * install.packages("shiny")
@@ -195,15 +190,13 @@ Note: Best for Window’s OS and a single time point
 
 **AstroDart Shiny is designed to make plots of the data from the RSML files.**
 
-
-
 <figure><img src="https://lh7-us.googleusercontent.com/ip-DlKaLhuDf1rSxLf01hl7NSpKm9u6tgVHJA0JLRn04byf3Z3229cQDWeGUJRK0zPOw-Cqei-If_2iIfWqmiFzAdjBgfinxqLETqZb04VxjXdRiW__XbFMwAyAOWtPjqApEpVP7fq5XLL7dH2Tfyw" alt=""><figcaption></figcaption></figure>
 
 ### **Data Analysis Protocol**
 
 **Plant Root System Architecture data**
 
-**RootSystem analysis, **_**“turning pictures into numbers then into graphs”**_
+**RootSystem analysis, \_“turning pictures into numbers then into graphs”**\_
 
 **Goal:** Turn photos of roots into numbers for analysis
 
@@ -214,7 +207,7 @@ Note: Best for Window’s OS and a single time point
 
 **Goal:** Observe a real experimental data matrix and then make your own
 
-* Students are given a [example ](https://docs.google.com/spreadsheets/d/1NIJLvMePCzTk8kKfVo\_ePQOXW2zHa8bazv1O1rKtkqM/edit?usp=sharing)spreadsheet
+* Students are given a [example ](https://docs.google.com/spreadsheets/d/1NIJLvMePCzTk8kKfVo_ePQOXW2zHa8bazv1O1rKtkqM/edit?usp=sharing)spreadsheet
 * Students can use these demo data to practice using these analysis tools.
 * Eventually the students will enter their own data into their classes shared spreadsheet and then analyse it using these applications.
 
@@ -231,7 +224,7 @@ Note: Best for Window’s OS and a single time point
 **Goal:** Introduction to statistics for teachers and students T-test
 
 * This article describes how [R-shiny statistics app](https://escholarship.org/uc/item/00d4q8cp)’s can be used in the classroom
-* How to do a simply [T-test using R-shiny](http://shiny.stat.calpoly.edu/t\_Test/) app.
+* How to do a simply [T-test using R-shiny](http://shiny.stat.calpoly.edu/t_Test/) app.
 
 ### **Summary and Application Discussion**
 
@@ -246,14 +239,12 @@ Note: Best for Window’s OS and a single time point
 * Based on these observations, what directions do plants grow towards? (stems, leaves)
 * How can this idea be tested?
 
-
-
 A new Machine learning approach known as Primal is worth further investigation
 
 ## PRIMAL: Pipeline of Root Image analysis using MAchine Learning
 
 DOI[dx.doi.org/10.17504/protocols.io.h7bb9in](https://dx.doi.org/10.17504/protocols.io.h7bb9in)
 
-![PRIMAL: Pipeline of Root Image analysis using MAchine Learning](https://content.protocols.io/j4idmie.jpg)![](<../gitbook/assets/image (20).png>)
+![PRIMAL: Pipeline of Root Image analysis using MAchine Learning](https://content.protocols.io/j4idmie.jpg) ![](<../../.gitbook/assets/image (20).png>)
 
 🧪 [PRIMAL: root image-analysis pipeline (protocols.io)](https://www.protocols.io/view/primal-pipeline-of-root-image-analysis-using-machi-n92ldwq7v5br/v1)
