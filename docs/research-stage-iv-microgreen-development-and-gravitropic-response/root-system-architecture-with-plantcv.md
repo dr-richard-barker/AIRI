@@ -43,24 +43,69 @@ You don't have to do these by hand. The **AIRI Root Tool** does all four for you
 
     **→ [Launch AstroRoot](https://dr-richard-barker.github.io/astroroot/)**
     · [source & guide](https://github.com/dr-richard-barker/astroroot)
+    · [dashboard](https://dr-richard-barker.github.io/astroroot/dashboard.html)
 
-    - **Single mode** — upload one photo, see the traced roots drawn on top, nudge any
-      mistakes by hand, and read the measurements.
-    - **Batch mode** — drop in a whole folder of photos and get one spreadsheet (CSV) with a
-      row per image, ready to graph.
-    - **Your images stay on your device** — nothing is uploaded to a server.
+    No sign-in, no upload — everything runs in the browser tab and your images stay on the
+    device. There's even built-in **demo images** (real NASA ISS root photos) so you can try it
+    before you take your own.
 
-    *Until it's released, teachers comfortable with Python can use
-    [PlantCV](https://plantcv.org/) directly (see the coder appendix, below).*
+## What the tool can do
+
+Start simple, then add only the pieces your experiment needs.
+
+=== "Measure one photo"
+
+    Open a photo (or a demo image) and press **Trace roots** — the tool finds the roots, draws
+    them on top, and reports the numbers. Anything it gets wrong, you can fix by hand. Choose the
+    **classical** engine (works instantly) or the **RootNav 2.0 AI** model.
+
+=== "Set the scale & fix colours"
+
+    Put an **[AstroCalibration marker](https://www.stickermule.com/drb2025)** in the shot and pick
+    it under **Marker** → *Auto-detect*. The tool reads the card to turn pixels into **millimetres**
+    and to colour-correct the photo — the same idea as PlantCV's colour-card detection.
+
+=== "Remove the petri-dish grid"
+
+    Growing on gridded plates? Tick **remove plate grid** and the etched grid is filtered out
+    before measuring, with a before/after preview. It's not always perfect — you can still fix the
+    trace by hand.
+
+=== "Compare genotypes (regions)"
+
+    If one image holds two genotypes (say one that skews and one that doesn't), click
+    **✏️ Draw region**, box each area and name it. Each region is measured separately, so you can
+    compare — e.g. the skewing line's angle vs the straight one's.
+
+=== "Count individual plants (seeds)"
+
+    Tell the tool how many **plants** are in the image and mark where each **seed** was sown (the
+    root's starting point) — or let it auto-place them. You then get a row **per plant**, including
+    its **skew** (how far its root drifts left/right from the seed). If you also drew genotype
+    regions, each plant is automatically labelled with its genotype.
+
+=== "Track a whole time-lapse (batch)"
+
+    Photograph the plate every day, then in **Batch** load the whole folder. The regions and seeds
+    you set once are applied to **every frame**, giving each plant's growth **over time**.
+
+=== "See & share the results (dashboard)"
+
+    The **[dashboard](https://dr-richard-barker.github.io/astroroot/dashboard.html)** collects every
+    measurement you save: summary stats, charts, a searchable table, **group summaries** (compare
+    genotypes), and a **per-plant trajectory** graph (each plant, and the genotype average, over
+    the days). Download it all as a spreadsheet — or, if your teacher sets it up, pool the whole
+    class's numbers together.
 
 ## What you can measure
 
 | Trait | What it tells you |
 |---|---|
 | **Total root length** | Overall root growth / vigour |
-| **Number of tips** | How many root ends (a proxy for branching) |
-| **Number of branch points** | How bushy / branched the system is |
-| **Root angles** | The **gravitropic response** — how roots reorient after the tray is turned 90° |
+| **Number of tips & branch points** | How branched / bushy the root system is |
+| **Root angle from vertical** | The **gravitropic response** — how roots reorient after the tray is turned 90° |
+| **Skew (per plant)** | Which way, and how far, each root drifts from straight down — the trait that separates a *skewing* genotype from a straight one |
+| **Length / diameter / surface / volume, convex-hull, tortuosity** | Full root-architecture traits when you import a traced **RSML** file (matching the [archiDART](https://github.com/archidart/archidart) trait set) |
 
 ## Tie it back to gravitropism (Stage IV)
 
