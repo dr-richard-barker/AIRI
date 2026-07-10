@@ -46,8 +46,9 @@ You don't have to do these by hand. The **AIRI Root Tool** does all four for you
     · [dashboard](https://dr-richard-barker.github.io/astroroot/dashboard.html)
 
     No sign-in, no upload — everything runs in the browser tab and your images stay on the
-    device. There's even built-in **demo images** (real NASA ISS root photos) so you can try it
-    before you take your own.
+    device. It also comes with **real NASA spaceflight demo images** built in — ISS root plates
+    from the **ABRS** time-lapse and the **APEX-03** skewing-mutant experiment (Col-0, WS, *spr1*,
+    *sku5*, flight vs ground) — so you can try the whole workflow before you take your own photos.
 
 ## What the tool can do
 
@@ -56,8 +57,11 @@ Start simple, then add only the pieces your experiment needs.
 === "Measure one photo"
 
     Open a photo (or a demo image) and press **Trace roots** — the tool finds the roots, draws
-    them on top, and reports the numbers. Anything it gets wrong, you can fix by hand. Choose the
-    **classical** engine (works instantly) or the **RootNav 2.0 AI** model.
+    them on top, and reports the numbers. Choose the **classical** engine (works instantly) or the
+    **RootNav 2.0 AI** model. Anything it gets wrong you can fix with the **Manual trace** editor
+    (RootNav 1-style): drag, add or delete the dots along a root, branch a lateral off a parent,
+    or use **Route** — click a root's start and its tip and the tool draws the line along it for
+    you.
 
 === "Set the scale & fix colours"
 
