@@ -110,6 +110,8 @@ Start simple, then add only the pieces your experiment needs.
 | **Root angle from vertical** | The **gravitropic response** — how roots reorient after the tray is turned 90° |
 | **Skew (per plant)** | Which way, and how far, each root drifts from straight down — the trait that separates a *skewing* genotype from a straight one |
 | **Length / diameter / surface / volume, convex-hull, tortuosity** | Full root-architecture traits when you import a traced **RSML** file (matching the [archiDART](https://github.com/archidart/archidart) trait set) |
+| **Root depth-distribution** | How much root sits at each depth — a density-vs-depth profile you can chart and compare between plants |
+| **Estimated laterals** *(AI guess)* | Laterals overlap in a photo, so the tool also **estimates** the number of laterals, their angle, and the "lateral fraction" from the root's shape. Treat these as a **helpful estimate, not an exact count** — the tool tells you so. |
 
 ## Tie it back to gravitropism (Stage IV)
 
