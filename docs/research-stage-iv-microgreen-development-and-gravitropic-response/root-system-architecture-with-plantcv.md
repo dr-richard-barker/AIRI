@@ -58,10 +58,18 @@ Start simple, then add only the pieces your experiment needs.
 
     Open a photo (or a demo image) and press **Trace roots** — the tool finds the roots, draws
     them on top, and reports the numbers. Choose the **classical** engine (works instantly) or the
-    **RootNav 2.0 AI** model. Anything it gets wrong you can fix with the **Manual trace** editor
-    (RootNav 1-style): drag, add or delete the dots along a root, branch a lateral off a parent,
-    or use **Route** — click a root's start and its tip and the tool draws the line along it for
-    you.
+    **RootNav 2.0 AI** model. Anything it gets wrong you can fix with the **Manual trace** editor,
+    which has the tracing tools of RootNav 1, NeuronJ and SmartRoot all in the browser:
+
+    - **Draw / Edit** — drag, add or delete the dots along a root, and branch a lateral off a parent.
+    - **Route** — click a root's start and its tip and it draws the line along the root for you.
+    - **Magnetic (live-wire)** — the line snaps along the root as you move the mouse; click to set it (hold **Shift** for a straight line in tricky spots).
+    - **Refine** — snaps your dots neatly onto the centre of the root and measures its **width** (so you also get diameter, surface area and volume).
+    - **Smooth** — draws the roots as smooth curves.
+
+    When you're done, scroll to the bottom for a **downloadable report** — a tidy web page with
+    your measurements, per-region and per-plant figures, and the traced image (great for a lab
+    book, or print it to PDF).
 
 === "Set the scale & fix colours"
 
