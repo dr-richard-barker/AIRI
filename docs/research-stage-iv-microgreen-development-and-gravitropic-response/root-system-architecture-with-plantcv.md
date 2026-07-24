@@ -119,7 +119,7 @@ Start simple, then add only the pieces your experiment needs.
 | **Skew (per plant)** | Which way, and how far, each root drifts from straight down — the trait that separates a *skewing* genotype from a straight one |
 | **Length / diameter / surface / volume, convex-hull, tortuosity** | Full root-architecture traits when you import a traced **RSML** file (matching the [archiDART](https://github.com/archidart/archidart) trait set) |
 | **Root depth-distribution** | How much root sits at each depth — a density-vs-depth profile you can chart and compare between plants |
-| **Estimated laterals** *(AI guess)* | Laterals overlap in a photo, so the tool also **estimates** the number of laterals, their angle, and the "lateral fraction" from the root's shape. Treat these as a **helpful estimate, not an exact count** — the tool tells you so. |
+| **Estimated laterals** *(AI guess)* | Laterals overlap in a photo, so the tool also **estimates** the number of laterals, their angle, and the "lateral fraction" from the root's shape. Treat these as a **helpful estimate, not an exact count** — the tool tells you so. The AI was trained on tidy single-root pictures, so on a **crowded plate** it knows it's out of its depth: instead of printing a wrong number it says the estimate isn't reliable and suggests you crop to **one root** first. |
 
 ## Tie it back to gravitropism (Stage IV)
 
