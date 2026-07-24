@@ -1,0 +1,24 @@
+/* COSE brand palette for MkDocs Material — unifies AIRI with the CoSE family
+   (radiation-page blue/teal) while keeping Material's native nav, search and
+   dark-mode toggle. Loaded via `extra_css` after the theme, so these win. */
+
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #3B6EA5;
+  --md-primary-fg-color--light: #5a8bc0;
+  --md-primary-fg-color--dark:  #2f5985;
+  --md-accent-fg-color:         #3FB6A8;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        #6ea3d8;
+  --md-primary-fg-color--light: #8fbbe4;
+  --md-primary-fg-color--dark:  #4f7fb0;
+  --md-accent-fg-color:         #54c9ba;
+}
+
+/* Keep the COSE header logo legible on the blue header bar. */
+.md-header__button.md-logo img {
+  height: 1.6rem;
+  width: auto;
+}
